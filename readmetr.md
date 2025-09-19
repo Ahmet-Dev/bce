@@ -1468,11 +1468,12 @@ BCE mimarisi, yapay zekânın sadece “yanıt veren” değil—karakter taşı
 Bu mimari, yapay zekânın insanla daha güvenli, anlamlı ve yaratıcı etkileşim kurabilmesi için tasarlanmıştır.
 
 ### ❓ Neden Yapılmalı?
-• 	Klasik yapay zekâ sistemleri veri bağımlı, deterministik ve bağlam körü
-• 	BCE mimarisi, az veriyle bile anlamlı, bağlamlı ve etik davranışlar üretir
-• 	Sistem, karakter inşa eder, geçmişten öğrenir ve evrimleşir
-• 	Yatırımcılar için ölçeklenebilir, modüler ve patentlenebilir bir platform sunar
-• 	Topluluk için açık kaynak, etik denetimli ve geliştirilebilir bir yapı sağlar
+
+- 	Klasik yapay zekâ sistemleri veri bağımlı, deterministik ve bağlam körü
+-	BCE mimarisi, az veriyle bile anlamlı, bağlamlı ve etik davranışlar üretir
+- 	Sistem, karakter inşa eder, geçmişten öğrenir ve evrimleşir
+- 	Yatırımcılar için ölçeklenebilir, modüler ve patentlenebilir bir platform sunar
+- 	Topluluk için açık kaynak, etik denetimli ve geliştirilebilir bir yapı sağlar
 
 ---
 
@@ -3469,6 +3470,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
