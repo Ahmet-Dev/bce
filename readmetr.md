@@ -3231,8 +3231,8 @@ Bu açıklamalar, BCE mimarisinin sadece teknik değil—**felsefi ve davranış
 - İzlek uyumunu bağlamla hizala (`η(Φᵢ)↑`)
 
 BCE mimarisinde **geçmişe saygı, geleceğe açıklık, niyete sadakat** sağlar.
----
 
+---
 
 ## Simülasyonda Performans Metrikleri İncelemeleri
 
@@ -3394,6 +3394,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
