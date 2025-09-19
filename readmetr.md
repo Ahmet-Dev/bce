@@ -59,17 +59,26 @@ Davranışsal sistemlerde “decay” kavramı, izlerin, hafıza içeriğinin ya
 
 En temel model, radyoaktif bozunma benzeri üstel decay fonksiyonudur ve hafıza, ilgi veya davranışsal etkinliğin zamana bağlı olarak eksponansiyel şekilde azalmasını simgeler:
 
-**Üstel Decay Fonksiyonu:**  
+**Üstel Decay Fonksiyonu:** 
+
+```math
+
 $$
 N(t) = N_0 \cdot e^{-λt}
 $$
 
+```
+
 Burada $N(t)$ belirli bir $t$ anında kalan davranış şiddetini, $N_0$ başlangıç miktarını ve $λ$ decay sabitini verir. $λ$ arttıkça decay süreci hızlanır. BCE mimarisinde $λ$ sistemin unutma, direnç veya bağlam resetleme gereksinimine uygun biçimde ayarlanabilir.
 
 **Yarı Ömür Formülü (Half-life):**  
+```math
+
 $$
 T_{\frac{1}{2}} = \frac{0.693}{λ}
 $$
+
+```
 
 Bu formül, bir davranışsal iz’in veya hafıza öğesinin gücünün yarıya inmesi için geçen süreyi hesaplar. Özellikle davranışsal izleklerin arka planda evrilirken ne zaman geçersizleştiğini belirlemede faydalıdır. BCE mimarisinde decay’in hem bilişsel (unutma) hem de etik filtreleme, duygusal duyarsızlaşma gibi alanlarda kullanımı mümkündür.
 
@@ -3470,6 +3479,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
