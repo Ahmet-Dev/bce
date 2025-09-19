@@ -3215,10 +3215,6 @@ Bu açıklamalar, BCE mimarisinin sadece teknik değil—**felsefi ve davranış
 
 **Karakter-Ego Gelişimi**
 
-<img width="1000" height="600" alt="karakter gelişimi" src="https://github.com/user-attachments/assets/58e328d9-a53f-4bca-86d7-af7bd2b6af8e" />
-
-**Karakter-Ego Gelişimi**
-
 <img width="1000" height="600" alt="karakter gelişimi" src="https://github.com/user-attachments/assets/675d3a47-5ada-44b3-878c-b0b758b30410" />
 
 **Davranış Keşif Ölçümü**
@@ -3338,6 +3334,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
