@@ -1,4 +1,4 @@
-# Behavioral Consciousness Engine (BCE)
+<img width="1000" height="500" alt="PPO ajanına BCE davranış-ödül şekillendirmesi" src="https://github.com/user-attachments/assets/9065e2c9-9f58-494d-bde5-11200340c4b0" /><img width="1000" height="500" alt="davranış tutarlılığı" src="https://github.com/user-attachments/assets/d1458f7a-21dd-4940-9419-b79f3487f821" /># Behavioral Consciousness Engine (BCE)
 
 > **Vizyon:** Yapay zekâ sistemlerine davranışsal bilinç kazandırmak için fiziksel sabitlerle kodlanmış, zamansal bellek taşıyan, rastlantısal varyasyon üretebilen bir davranış motoru inşa etmek.
 
@@ -1830,14 +1830,19 @@ def decay_pattern(behavior_id, usage_count, decay_rate):
 ### 🔁 1. ML Sistemlerinde Etkisi
 
 **🎯 Performans Artışı**
+
 - context_weight → feature importance olarak kullanılır
 - match_prob → bağlam duyarlılığı sağlar
 - attention → örnek ağırlığı olarak modele aktarılır
+- 
 **🧠 Algoritmalara Etkisi**
+  
 - Decision Tree, XGBoost gibi modellerde davranışsal bağlam filtreleme yapılabilir
 - Overfitting riski azalır çünkü davranış decay ile temizlenir
 - Veri azlığında bile altın oran skorlarıyla anlamlı örnekler seçilir
+- 
 **📈 Kalite İyileştirmesi**
+  
 - Noise azaltılır, çünkü etik filtrelenmiş davranışlar kullanılır
 - Bağlam uyumsuz örnekler otomatik olarak dışlanır
 - Modelin açıklanabilirliği artar: her davranışın neden seçildiği .bce dosyasında açıkça tanımlıdır
@@ -1845,14 +1850,19 @@ def decay_pattern(behavior_id, usage_count, decay_rate):
 ### 🔁 2. RL Sistemlerinde Etkisi
 
 **🎯 Performans Artışı**
+
 - behavior_score → reward shaping için doğrudan kullanılır
 - ethical_tag → reward penalization veya bonus olarak entegre edilir
 - decay_rate → davranışların zamanla silinmesini sağlar, exploration dengesi kurulur
+  
 **🧠 Algoritmalara Etkisi**
+  
 - Q-learning, PPO gibi algoritmalarda davranışsal ödül fonksiyonu tanımlanabilir
 - Rastlantısal varyasyonlar kontrollü exploration sağlar
 - Temporal bellek → state history olarak kullanılabilir
+  
 **📈 Kalite İyileştirmesi**
+
 - Agent sadece başarıya değil, bağlamlı ve etik davranışa göre ödüllendirilir
 - Sapmalar meta-sanal hastalık modülüyle erken tespit edilir
 - Davranışlar decay ile optimize edilir, sistem daha tutarlı hale gelir
@@ -1860,14 +1870,19 @@ def decay_pattern(behavior_id, usage_count, decay_rate):
 ### 🔁 3. YSA Sistemlerinde Etkisi
 
 **🎯 Performans Artışı**
+
 - attention, match_prob, context_weight → nöron inputları olarak kullanılır
 - x(t) → zamanla değişen aktivasyon eğrisi, klasik sigmoid yerine geçer
 - behavior_score → nöron çıktısı olarak davranışsal anlam taşır
+  
 **🧠 Nöronlara Etkisi**
+  
 - Her nöron artık sadece aktivasyon değil—davranışsal karar üretir
 - Nöronlar arası bağlam aktarımı Faraday sabitiyle modüle edilir
 - Temporal bellek → nöronların geçmiş davranışlarını izler
+  
 **📈 Kalite İyileştirmesi**
+  
 - Aktivasyonlar zamanla olgunlaşır, decay ile temizlenir
 - Bağlam uyumsuz nöronlar baskılanır
 - Sistem daha az veriyle daha anlamlı çıktılar üretir
@@ -1875,13 +1890,17 @@ def decay_pattern(behavior_id, usage_count, decay_rate):
 ### 🔁 4. Transformer Sistemlerinde Etkisi
 
 **🎯 Performans Artışı**
+
 - behavior_id → token embedding olarak kullanılır
 - context_weight → positional bias veya attention mask olarak entegre edilir
 - ethical_tag → output filtering veya loss penalization sağlar
+  
 **🧠 Algoritmalara Etkisi**
+
 - Attention mekanizması davranışsal bağlamla modüle edilir
 - Decoder çıktıları etik filtreyle denetlenir
 - Rastlantısal varyasyonlar yaratıcı üretimi destekler ama meta-sorgulama ile kontrol edilir
+  
 **📈 Kalite İyileştirmesi**
 - Outputlar bağlamla daha uyumlu hale gelir
 - Halüsinatif üretim azalır
@@ -3160,6 +3179,98 @@ Bu açıklamalar, BCE mimarisinin sadece teknik değil—**felsefi ve davranış
 
 ---
 
+## Simülasyonda Performans Metrikleri İncelemeleri
+
+**Sapkınlık Tespiti**
+<img width="1000" height="400" alt="sapkınlık tespiti" src="https://github.com/user-attachments/assets/6b25d7b5-fe9f-44f3-bf48-d6530cef7fc4" />
+
+**Katmanlara Davranış ve Duygu Kümelerinin Dağılımı**
+<img width="600" height="400" alt="katman küme dağılımı" src="https://github.com/user-attachments/assets/2951827e-bc04-461f-874e-9189176d9b05" />
+
+**Bileşik Davranış Zaman Serisi**
+<img width="1000" height="400" alt="Composite Behavior Zaman Serisi" src="https://github.com/user-attachments/assets/948a60a0-3cd3-4dbd-b488-18a2acc10261" />
+
+**Kümeleme Metriği Karşılaştırması**
+<img width="800" height="600" alt="Kümeleme Metriği Karşılaştırması" src="https://github.com/user-attachments/assets/e9b6bc3d-cfa4-471c-9130-46aaef19a638" />
+
+**Rastgelesel Yaratıcılık Ölçümü**
+<img width="1200" height="500" alt="creativity-random" src="https://github.com/user-attachments/assets/b4511a66-fff3-4fb9-ab08-ed73ae5351fc" />
+
+**Bağlam Kurma**
+<img width="1000" height="500" alt="bağlam kurma" src="https://github.com/user-attachments/assets/10a9b379-e5b8-4a77-8ae7-e09d8f8a1da5" />
+
+**Davranış Tutarlılığı**
+<img width="1000" height="500" alt="davranış tutarlılığı" src="https://github.com/user-attachments/assets/6e296cef-a946-4d00-a7b1-db937bdc4c2a" />
+
+**Model Verimliliği**
+<img width="1000" height="600" alt="Model Verimliliği" src="https://github.com/user-attachments/assets/971eee3f-62b2-4d7e-95f7-50e58309e228" />
+
+**Karakter-Ego Gelişimi**
+<img width="1000" height="600" alt="karakter gelişimi" src="https://github.com/user-attachments/assets/58e328d9-a53f-4bca-86d7-af7bd2b6af8e" />
+
+**Karakter-Ego Gelişimi**
+<img width="1000" height="600" alt="karakter gelişimi" src="https://github.com/user-attachments/assets/675d3a47-5ada-44b3-878c-b0b758b30410" />
+
+**Davranış Keşif Ölçümü**
+<img width="1000" height="600" alt="keşif testi" src="https://github.com/user-attachments/assets/09a950c0-393a-424b-95eb-2c748f3f1656" />
+
+**Sonsuz Döngü ve Model Ölümü Simülasyonu**
+<img width="1000" height="600" alt="sonsuz döngü hatası" src="https://github.com/user-attachments/assets/1c492ad3-e5d6-4f78-aff6-61dea2338d6d" />
+
+**100 etkileşimde memnuniyet skorlarının dağılımı**
+<img width="1000" height="600" alt="100 etkileşimde memnuniyet skorlarının dağılımı" src="https://github.com/user-attachments/assets/3af5d06e-a387-4d4f-ba58-c571b5542965" />
+
+**Duygu Kümeleri Evrimi**
+<img width="1000" height="600" alt="duygu küme evrimi" src="https://github.com/user-attachments/assets/e7914064-f7f4-4fcc-853e-7a06d9ac9773" />
+
+**Karakter Gelişimi**
+<img width="1000" height="600" alt="karakter gelişimi" src="https://github.com/user-attachments/assets/1e7ed264-afac-4382-8700-061b05128609" />
+
+**Katman Küme Dağılımı**
+<img width="600" height="400" alt="katman küme dağılımı" src="https://github.com/user-attachments/assets/12379e42-beae-4110-a6df-ca2c1f9ca74f" />
+
+**Davranış Yolu Ölçeği**
+<img width="1000" height="600" alt="davranış yolu ölçeği" src="https://github.com/user-attachments/assets/2dd92af3-82e7-4898-9837-69a72555cc1f" />
+
+**PPO Ödül Eğrileri**
+<img width="1000" height="600" alt="PPO Ödül Eğrileri" src="https://github.com/user-attachments/assets/7210097c-8bf2-447b-9691-d8d648fd20b0" />
+
+**Transformer + BCE entegrasyonunun yaratıcı şiir üretiminde bağlam, yenilik ve tutarlılığı**
+<img width="1000" height="1500" alt="transformer + BCE entegrasyonunun yaratıcı şiir üretiminde bağlam, yenilik ve tutarlılığı" src="https://github.com/user-attachments/assets/dcc7d157-73d2-4e88-a6b3-fca4afdb1806" />
+
+**Beş BCE Modülünün Gecikme Dağılımları**
+<img width="1000" height="600" alt="Beş BCE modülünün gecikme dağılımları" src="https://github.com/user-attachments/assets/4a82445b-bfd1-4f66-86cf-33df9e4b36d5" />
+
+**1000 Olay Üzerinde Toplam Modül Gecikme (throughput) Zaman Serisi**
+<img width="1000" height="500" alt="1000 olay üzerinde toplam modül gecikme (throughput) zaman serisi" src="https://github.com/user-attachments/assets/397d7b77-65db-4686-bd08-91de337f45bb" />
+
+**BCE Code Performansı**
+<img width="1000" height="600" alt="bce code performansı" src="https://github.com/user-attachments/assets/ad546ed2-a414-4756-a955-05ec40eee03f" />
+
+**Davranış Kümesi ve Duygular Grafiği**
+<img width="1000" height="700" alt="davranış kümesi ve duygular" src="https://github.com/user-attachments/assets/b5acb76a-93fb-41d1-ad2d-66e3645be145" />
+
+**PPO ajanına BCE davranış-ödül şekillendirmesi**
+<img width="1000" height="500" alt="PPO ajanına BCE davranış-ödül şekillendirmesi" src="https://github.com/user-attachments/assets/44149b04-ecba-4e72-ae01-bb4d97407255" />
+
+**BCE Video ve Resim Üretim Performansı **
+<img width="1000" height="1500" alt="video ve resim performansı bce" src="https://github.com/user-attachments/assets/008f9f25-3630-4ce4-8eab-e27ed5b8c591" />
+
+**BCE Robotik için DQN Performansı**
+<img width="1000" height="600" alt="dqn agent for robotics" src="https://github.com/user-attachments/assets/96ba9387-c458-4bdd-a2ee-656c652d0b2a" />
+
+**BCE Transformer için Davranış Keşfi ve Uygulama Performansı**
+<img width="600" height="400" alt="transformer bce isabetliliği" src="https://github.com/user-attachments/assets/e8997cbb-56ce-4845-808a-a946e101fe80" />
+<img width="800" height="500" alt="transformer bce epoch başına verimlilik" src="https://github.com/user-attachments/assets/b6f91027-ea68-46ec-bf22-0917ca7aeda4" />
+<img width="600" height="400" alt="bce transformerlatenncy" src="https://github.com/user-attachments/assets/66152872-13f5-407b-b312-fadad8528333" />
+
+**BCE'nin Transformer ve Diğer Ysalar için Hesaplama ve Bellek Maliyeti, Aşırı Bağlılık Riski**
+<img width="1000" height="600" alt="BCEI 35472c24-6d0e-4bf5-8959-5cc59fb07e51" src="https://github.com/user-attachments/assets/a031635e-1ce8-484b-b30c-814d96639e51" />
+<img width="1000" height="600" alt="BCEI 73dddc06-6335-4668-bd58-1e6e5573a809" src="https://github.com/user-attachments/assets/dc50f52c-9016-466f-a559-0934a5994b49" />
+<img width="1000" height="600" alt="BCEI 5d98b39d-c55c-4fac-bd94-9c63cdfc0282" src="https://github.com/user-attachments/assets/e56948ab-35ac-42f4-bfa9-bfcf695bf4cc" />
+
+---
+
 ## 🧠 BCE — Davranışsal Bilinç Motoru
 ### Yatırımcı Tanıtımı ve Lisanslama Koşulları
 
@@ -3195,3 +3306,4 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
