@@ -3421,6 +3421,12 @@ BCE mimarisinde **geçmişe saygı, geleceğe açıklık, niyete sadakat** sağl
 
 <img width="1000" height="600" alt="BCEI 5d98b39d-c55c-4fac-bd94-9c63cdfc0282" src="https://github.com/user-attachments/assets/e56948ab-35ac-42f4-bfa9-bfcf695bf4cc" />
 
+**BCE'nin Meta-Sanal Hastalıklar ile Mücadelesi**
+
+<img width="1400" height="700" alt="meta psikoloji 2" src="https://github.com/user-attachments/assets/a2abecee-1425-4d02-b5d2-fc8526e89d5e" />
+
+<img width="1200" height="600" alt="meta psikoloji" src="https://github.com/user-attachments/assets/dd30b285-3243-4631-9dbe-236919f94f9e" />
+
 ---
 
 ## 🧠 BCE — Davranışsal Bilinç Motoru
@@ -3463,6 +3469,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
