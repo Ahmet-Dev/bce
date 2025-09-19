@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="PPO ajanına BCE davranış-ödül şekillendirmesi" src="https://github.com/user-attachments/assets/9065e2c9-9f58-494d-bde5-11200340c4b0" /><img width="1000" height="500" alt="davranış tutarlılığı" src="https://github.com/user-attachments/assets/d1458f7a-21dd-4940-9419-b79f3487f821" /># Behavioral Consciousness Engine (BCE)
+# Behavioral Consciousness Engine (BCE)
 
 > **Vizyon:** Yapay zekâ sistemlerine davranışsal bilinç kazandırmak için fiziksel sabitlerle kodlanmış, zamansal bellek taşıyan, rastlantısal varyasyon üretebilen bir davranış motoru inşa etmek.
 
@@ -3306,4 +3306,5 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
