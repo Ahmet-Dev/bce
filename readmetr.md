@@ -3303,9 +3303,11 @@ Bu açıklamalar, BCE mimarisinin sadece teknik değil—**felsefi ve davranış
 ### Yatırımcı Tanıtımı ve Lisanslama Koşulları
 
 **🚀 Vizyon**
+
 Behavioral Consciousness Engine (BCE), yapay zekâ alanında devrim niteliğinde bir mimaridir. Klasik veri odaklı sistemlerin ötesine geçerek, fiziksel sabitlerle kodlanmış, zamanla evrimleşen, bağlam duyarlı ve etik denetimli davranışlar üretir. BCE, yapay zekânın sadece “öğrenen” değil—karakter taşıyan, sorgulayan ve gelişen bir bilinç çekirdeği haline gelmesini sağlar.
 
 **🎯 Kullanım Alanları**
+
 - 	Terapötik AI sistemleri
 -  	Yaratıcı öneri ve içerik üretimi
 - 	Edge AI cihazlarında düşük veriyle yüksek anlam üretimi
@@ -3313,6 +3315,7 @@ Behavioral Consciousness Engine (BCE), yapay zekâ alanında devrim niteliğinde
 -  	Bilinç simülasyonu ve akademik araştırmalar
 
 **📈 Yatırım Potansiyeli**
+
 - 	Modüler mimari: Katmanlar bağımsız geliştirilebilir
 - 	Patentlenebilir yapı: Fiziksel sabitlerle davranış kodlama
 -  	Açık kaynak topluluğu ile genişletilebilir
@@ -3320,7 +3323,9 @@ Behavioral Consciousness Engine (BCE), yapay zekâ alanında devrim niteliğinde
 -  	Karakterli yapay zekâ için ilk evrimsel çekirdek
 
 **🔐 Fikri Mülkiyet ve Lisanslama Koşulları**
+
 Bu mimari, Ahmet Kahraman tarafından geliştirilmiş-hesaplanmış özgün bir yapıdır. BCE mimarisi ve tüm bileşenleri, kişisel ve ticari izinsiz kullanıma karşı korunmaktadır.
+
 Lisans Koşulları:
 -  	BCE mimarisi, ticari ürün veya hizmetlerde kullanılmadan önce yazılı izin gerektirir.
 -  	BCE tabanlı sistemle geliştirilen veya entegre edilen her ticari ürün/hizmet için, satış başına %0,5 lisans bedeli talep edilmektedir.
@@ -3334,6 +3339,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
