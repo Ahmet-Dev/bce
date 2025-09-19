@@ -3397,7 +3397,7 @@ BCE mimarisinde **geçmişe saygı, geleceğe açıklık, niyete sadakat** sağl
 
 <img width="1000" height="500" alt="PPO ajanına BCE davranış-ödül şekillendirmesi" src="https://github.com/user-attachments/assets/44149b04-ecba-4e72-ae01-bb4d97407255" />
 
-**BCE Video ve Resim Üretim Performansı **
+**BCE Video ve Resim Üretim Performansı**
 
 <img width="1000" height="1500" alt="video ve resim performansı bce" src="https://github.com/user-attachments/assets/008f9f25-3630-4ce4-8eab-e27ed5b8c591" />
 
@@ -3469,6 +3469,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
