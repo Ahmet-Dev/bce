@@ -3010,6 +3010,17 @@ w_det = \frac{(μ_{task}·0.6 + μ_{engage}·0.4)·(1 - μ_{emotion}·0.5)}{w_{t
 w_stoch = \frac{(μ_{emotion}·0.7 + (1 - μ_{task})·0.3)·(1 - μ_{engage}·0.4)}{w_{total}}
 ```
 
+## 📐 Davranışsal Seçimin Matematiksel Karşılığı
+
+Davranışsal seçim:
+
+```math
+Davranış = w_{det} · Φ_{det} + w_{stoch} · Φ_{stoch}
+```
+
+- `w_{det}` ve `w_{stoch}` → fuzzy logic ile hesaplanan davranış ağırlıkları  
+- `Φ_{det}` ve `Φ_{stoch}` → deterministik ve stokastik davranış izlekleri  
+
 > Bu formüller, davranışsal seçimimin **görev odaklı mı yoksa duygusal mı olacağını** belirliyor.  
 > Hibrit seçim, bu iki ağırlığın normalize edilmiş birleşimi.
 
@@ -3543,6 +3554,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
