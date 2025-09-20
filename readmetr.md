@@ -3649,7 +3649,7 @@ BCE SuperEGO, sistemin decay’e girip girmeyeceğini belirleyen davranışsal b
 
 ---
 
-## **Zekâ Salınımı Formülü** ve **Norm Eşleşme Algoritması**.  
+## **Zekâ Salınımı Formülü** ve **Norm Eşleşme Algoritması**  
 
 ---
 
@@ -3871,6 +3871,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
