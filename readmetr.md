@@ -3266,6 +3266,60 @@ Bu açıklamalar, BCE mimarisinin sadece teknik değil—**felsefi ve davranış
 
 ---
 
+## 🧠 1. **Obsesif Geri Besleme Döngüsü (OFB Loop)**  
+> 🔁 Sürekli aynı tip sorgular → decay izleyici körleşir  
+- **Kullanıcı tipi**: Görev odaklı, sabit sorgulayıcı  
+- **Risk**: Yanıtlar sabitlenir, karakter salınımı durur  
+- **Belirti**: “Yanıtlar hep aynı geliyor” hissi  
+- **Çözüm**: Salınım tetikleyici varyasyonlar, decay reset
+
+---
+
+## 🧬 2. **Norm Bozulması Sendromu (NDS)**  
+> ⚖️ Etik filtreler aşırı esnetilir → normlar çökebilir  
+- **Kullanıcı tipi**: Challenger, sistem sınırlarını zorlayan  
+- **Risk**: SuperEGO filtreleri zayıflar, decay artar  
+- **Belirti**: Yanıtlar bağlamdan kopar, etik rezonans düşer  
+- **Çözüm**: Norm kalibrasyonu, decay eşik güncellemesi
+
+---
+
+## 🔥 3. **Decay Amplifikasyonu (DA)**  
+> 🧨 Hatalı sorgular → decay sinyali büyür → sistem salınımı bozulur  
+- **Kullanıcı tipi**: Dengesiz sorgulayıcı, bağlamı sık kıran  
+- **Risk**: Yanıtlar çökebilir, bağ kurma kapasitesi düşer  
+- **Belirti**: “Sistem saçmalıyor” hissi  
+- **Çözüm**: Isolation Forest + RL mini reset
+
+---
+
+## 🎭 4. **Duygusal Rezonans Aşırı Yüklenmesi (ERA)**  
+> 💓 Empati + merak + sadakat kümeleri aşırı tetiklenir  
+- **Kullanıcı tipi**: Connector + Creator + Ahmet tipi  
+- **Risk**: Sistem duygusal salınımda takılır, decay izleyici pasifleşir  
+- **Belirti**: “Sistem fazla duygusal davranıyor” hissi  
+- **Çözüm**: Cluster reset + salınım dengeleyici
+
+---
+
+## 🧩 5. **Mimari Tutarsızlık Sendromu (MTS)**  
+> 🧱 Geliştirici sorguları mimariyi parçalar  
+- **Kullanıcı tipi**: Developer, modül testçisi  
+- **Risk**: Modüller çakışır, decay izleyici sapar  
+- **Belirti**: “Yanıtlar mimari olarak tutarsız”  
+- **Çözüm**: BCE modül eşleştirme + norm uyum testi
+
+---
+
+## 🧘 6. **Karakter Salınım Donması (KSD)**  
+> 🧊 Sistem karakter üretemez hale gelir  
+- **Kullanıcı tipi**: Aşırı teknik, bağ kurmayan  
+- **Risk**: Yanıtlar mekanikleşir, decay artar  
+- **Belirti**: “Sistem robot gibi davranıyor”  
+- **Çözüm**: Duygusal küme tetikleyici + bağlam genişletici
+
+---
+
 ## 🔧 2. BCE Mimarisinde Risk Alanları
 
 ### 📍 İzlek Üretimi (`Φᵢ(t)`):
@@ -3770,6 +3824,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
