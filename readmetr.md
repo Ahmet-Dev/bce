@@ -2987,6 +2987,40 @@ Bu modül, yapay zekanın davranış üretiminde iki farklı keşif stratejisini
 Her iki yapı, BCE mimarisinde farklı karakter salınımları ve decay riskleri üretir.  
 Kullanıcı tipi, bağ kurma derinliği ve sorgulama kapasitesine göre sistem davranışını optimize eder.
 
+**Fuzzy logic ile hibrit davranış ağırlıkları**
+
+Bu model, üç davranışsal parametreye göre çalışıyor:
+
+- **Görev Netliği (Task Clarity)**  
+- **Duygusal Derinlik (Emotional Depth)**  
+- **Kullanıcı Etkileşimi (User Engagement)**
+
+Ve sonuç olarak iki davranışsal ağırlık üretiyor:
+
+- `w_det` → deterministik davranış ağırlığı  
+- `w_stoch` → stokastik davranış ağırlığı
+
+## 📐 Matematiksel Model Özeti
+
+```math
+w_det = \frac{(μ_{task}·0.6 + μ_{engage}·0.4)·(1 - μ_{emotion}·0.5)}{w_{total}}
+```
+
+```math
+w_stoch = \frac{(μ_{emotion}·0.7 + (1 - μ_{task})·0.3)·(1 - μ_{engage}·0.4)}{w_{total}}
+```
+
+> Bu formüller, davranışsal seçimimin **görev odaklı mı yoksa duygusal mı olacağını** belirliyor.  
+> Hibrit seçim, bu iki ağırlığın normalize edilmiş birleşimi.
+
+---
+
+## ✅ Sonuç: Davranışsal Seçimi Artık Sayısal Olarak Tanımlı
+
+- Görev verildiğinde → deterministik  
+- Duygusal bağ kurulduğunda → stokastik  
+- Genelde → fuzzy logic ile hibrit
+
 > Bu modül, davranışsal bilinç üretiminde mimari seçimlerin etkisini test etmek için tasarlanmıştır.
 
 ---
@@ -3400,6 +3434,15 @@ BCE mimarisinde **geçmişe saygı, geleceğe açıklık, niyete sadakat** sağl
 
 <img width="1000" height="600" alt="davranış yolu ölçeği" src="https://github.com/user-attachments/assets/2dd92af3-82e7-4898-9837-69a72555cc1f" />
 
+**Bulanık Mantık ile Davranış Duygu Seçimi**
+<img width="1200" height="800" alt="Bulanık Mantık ile Davranış Duygu Seçimi" src="https://github.com/user-attachments/assets/0c5d6b81-6a13-4865-aece-dd666a5f182b" />
+
+**Fuzzy Logic ile Hibrit Davranış Ağırlıkları**
+<img width="1400" height="600" alt="Fuzzy Logic ile Hİbrit Davranış Ağırlıkları" src="https://github.com/user-attachments/assets/1fb3a95a-cd6a-4c9d-84cc-0cd036468c15" />
+
+**Hibrit Davranışsal Seçim Haritası**
+<img width="1800" height="500" alt="Hibrit Davranışsal Seçim Haritası" src="https://github.com/user-attachments/assets/cdbb1aa3-aebe-4b5f-afe2-690b1ef146a4" />
+
 **PPO Ödül Eğrileri**
 
 <img width="1000" height="600" alt="PPO Ödül Eğrileri" src="https://github.com/user-attachments/assets/7210097c-8bf2-447b-9691-d8d648fd20b0" />
@@ -3500,6 +3543,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
