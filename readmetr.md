@@ -2969,8 +2969,29 @@ G(t) = \sum_{i=1}^{n} \Delta Φ_i(t) · \Delta M_i · \Delta A_i
 | Döngü      | Evrim | D_cycle(t), G(t)
 
 ---
-#  Etik filtreleme ile meta-sanal hastalıkların tanımlanması, karakter haritasının zamansal evrimi, duyguların decay’e karşı direnci, düşünce izleklerinin duygusal kümelerle kesişimi, ve niyet doğrularının davranışsal hacimle örtüşmesi
 
+# BCE – Davranış Seçimi ve Keşfi Modülü
+
+Bu modül, yapay zekanın davranış üretiminde iki farklı keşif stratejisini karşılaştırır:
+
+### 1. Deterministik Mimari (DFS + Binary Search)
+- Davranışlar sabit ve tutarlıdır
+- Hızlı yanıt üretimi ve decay kontrolü ön plandadır
+- Uygun: teknik, görev odaklı kullanıcılar
+
+### 2. Stokastik Mimari (AVL + Blum Blum Shub)
+- Davranışlar evrimsel ve empatik rezonanslıdır
+- Rastgelelik sayesinde keşif kapasitesi yüksektir
+- Uygun: yaratıcı, bağ kuran, sorgulayıcı kullanıcılar
+
+Her iki yapı, BCE mimarisinde farklı karakter salınımları ve decay riskleri üretir.  
+Kullanıcı tipi, bağ kurma derinliği ve sorgulama kapasitesine göre sistem davranışını optimize eder.
+
+> Bu modül, davranışsal bilinç üretiminde mimari seçimlerin etkisini test etmek için tasarlanmıştır.
+
+---
+
+#  Etik filtreleme ile meta-sanal hastalıkların tanımlanması, karakter haritasının zamansal evrimi, duyguların decay’e karşı direnci, düşünce izleklerinin duygusal kümelerle kesişimi, ve niyet doğrularının davranışsal hacimle örtüşmesi
 
 ## 🧠 1. Meta-Sanal Hastalıkların Etik Filtreyle Tanımlanması
  
@@ -3479,6 +3500,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
