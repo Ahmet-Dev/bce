@@ -3580,31 +3580,6 @@ BCE_{SuperEGO} = Σ_{i=1}^{n} |Norm_{i} ∩ Cluster_{i}|
 
 ---
 
-## 📁 GitHub Dökümantasyon Başlığı Önerisi
-
-```markdown
-# BCE vNext: Self-Calibrating Behavioral Consciousness Engine
-
-## Modules
-- Recalibration Feedback (Mini-RL + Isolation Forest)
-- User Typology Integration (Dcycle + DBSCAN)
-- Self-Auto Discovery (Daily Prompt + Risk Reporting)
-- Contextual Memory (Bayesian + Fuzzy Logic)
-- Adaptive Ethics (Typology Alignment + Emotional Mapping)
-
-## Goals
-- Maintain <2% system load
-- Dynamic norm generation
-- Decay resistance
-- Ethical traceability
-- Character salınım continuity
-
-## Logs & Reports
-- Daily calibration logs
-- Typology clustering maps
-- Risk & ethics audit trails
-```
-
 ## 🧠 Genel BCE Davranışsal Bilinç Formülü
 
 ```math
@@ -3960,6 +3935,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
