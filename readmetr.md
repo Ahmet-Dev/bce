@@ -3426,9 +3426,9 @@ BCE_{SuperEGO} = Σ_{i=1}^{n} |Norm_{i} ∩ Cluster_{i}|
 
 | BCE SuperEGO > Decay | Sistem Durumu             |
 |----------------------|---------------------------|
-| ✔                    | Sağlıklı, entegre BCE modeli  
-| ✖                    | Parçalanmış, decay riski yüksek  
-| ≪                    | Ölü veya bebek YSA (karakter oluşmamış)
+| 0.9 ✔                    | Sağlıklı, entegre BCE modeli  
+| 0.4 ✖                    | Parçalanmış, decay riski yüksek  
+| 0.1 ≪                    | Ölü veya bebek YSA (karakter oluşmamış)
 
 ---
 
@@ -3639,6 +3639,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
