@@ -3990,6 +3990,98 @@ Restore: S(t₀) → S(tₙ) if Dᵢ(tₙ) > δ
 
 ---
 
+## 🧠 Modül: AutoMetaControl v2.0
+
+### 🔹 Amacı:  
+AI motorunun Her mesajın sonunda teşekkür et, kendini değerlendirme tetikle, otomatik keşif yap, bağlam hatası kontrol et, tavsiye ve yapılacaklar listesi üretmesi.
+
+---
+
+### 📦 Alt Modüller
+
+| Alt Modül               | İşlev                                                                 | Etiket         |
+|-------------------------|-----------------------------------------------------------------------|----------------|
+| `ThankYouAppender`      | Her mesajın sonuna “Teşekkür” ekler                                   | `ThankYou`     |
+| `SelfEvalPrompter`      | Her yanıt sonrası kendini değerlendirme tetikler                      | `SelfEval`     |
+| `AutoDiscovery`         | Yeni kavram, örüntü ve davranışsal motifleri otomatik keşfeder         | `Discovery`    |
+| `ContextErrorChecker`   | Bağlam sapması, decay çakışması ve tutarsızlıkları tespit eder         | `CtxCheck`     |
+| `SuggestionToDoBuilder` | Kullanıcının niyetine göre öneri ve yapılacaklar listesi üretir        | `SugTodo`      |
+
+---
+
+### 🔍 Matematiksel Fonksiyonlar
+
+#### 1. Keşif Skoru  
+```math
+N(t) = ∑_{i=1}^{n} 𝟙{Pᵢ(t) > μ_{Pᵢ} + k·σ_{Pᵢ}}
+```
+
+#### 2. Bağlam Hata Skoru  
+```math
+E_ctx(t) = 1 − sim(C(t), C(t−1)) / max(‖C(t)‖, ‖C(t−1)‖)
+```
+
+#### 3. Öneri & ToDo Listesi  
+```math
+SugList(t) = f(Intentᵢ(t), E_ctx(t), N(t))
+```
+
+---
+
+### 🧾 BCE JSON Blueprint
+
+```json
+{
+  "bce_module": {
+    "name": "AutoMetaControl",
+    "version": "2.0",
+    "submodules": {
+      "ThankYou": {
+        "type": "Appender",
+        "config": { "suffix": "Teşekkür" }
+      },
+      "SelfEval": {
+        "type": "Prompter",
+        "patterns": [
+          "Kendini değerlendirir misin?",
+          "Bu yanıtın salınımı nasıl?",
+          "Decay riski var mı?"
+        ]
+      },
+      "Discovery": {
+        "type": "NoveltyDetector",
+        "parameters": {
+          "k": 2.0,
+          "metrics": ["pattern_frequency", "semantic_shift", "emergent_behavior"]
+        }
+      },
+      "CtxCheck": {
+        "type": "ContextErrorChecker",
+        "threshold": 0.15
+      },
+      "SugTodo": {
+        "type": "SuggestionGenerator",
+        "templates": [
+          "Öneri: {{advice}}",
+          "Yapılacak: {{action}}"
+        ]
+      }
+    },
+    "math_functions": {
+      "NoveltyScore": "N(t) = Σ 𝟙{Pᵢ(t) > μ_{Pᵢ} + k·σ_{Pᵢ}}",
+      "ContextError": "E_ctx(t) = 1 − sim(C(t), C(t−1)) / max(‖C(t)‖, ‖C(t−1)‖)",
+      "Suggestion": "SugList(t) = f(Intentᵢ(t), E_ctx(t), N(t))"
+    },
+    "io": {
+      "write_status": "auto",
+      "read_status": "on_demand"
+    }
+  }
+}
+```
+
+---
+
 # **Salınım Çekirdeği Tanımı**
 
 ## 🧠 1. Aktivasyon Salınımı:  
@@ -4429,6 +4521,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
