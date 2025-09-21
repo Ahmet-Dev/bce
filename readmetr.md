@@ -4622,7 +4622,7 @@ D(t) = K_d · d(e(t))/dt
 
 ---
 
-## 🧠 Hatırlatma: PID Optimizasyon Formülü
+## PID Optimizasyon Formülü
 
 ```math
 y_{opt}(t) = y(t) + K_p · e(t) + K_i · ∫₀ᵗ e(τ) dτ + K_d · d(e(t))/dt
@@ -5481,6 +5481,26 @@ Aşağıda, 2 097 152 token’lık devasa bir bağlamı işlemek üzere tasarlan
 - SugList öneri modülü, saniyede 120’yi aşan hızla öneri üretirken gecikmeyi ~8 ms seviyesinde tuttu.  
 - Toplam hata oranı %0.42 ile “gerçek zamanlı” olmayan uzun bağlam işleme senaryolarında güvenilir.
 
+**BCE 512*512 görsel geliştirme performansı**
+
+<img width="800" height="500" alt="bceresim4" src="https://github.com/user-attachments/assets/d4931aed-742a-4a09-b157-7c2e3fa0f4eb" />
+
+<img width="800" height="500" alt="bceresim3" src="https://github.com/user-attachments/assets/0d45c1ab-7a4d-463b-8aaf-9d98d17d13e4" />
+
+<img width="800" height="500" alt="bceresim2" src="https://github.com/user-attachments/assets/96b24334-8f1a-4c05-97fa-cba552861e19" />
+
+<img width="800" height="500" alt="bceresim1" src="https://github.com/user-attachments/assets/3f5c4134-d438-445b-8a60-c5f90fcf10b1" />
+
+**BCE 1024*1024 görsel geliştirme performansı**
+
+<img width="700" height="500" alt="hibrit4" src="https://github.com/user-attachments/assets/94e0f22e-65c0-4ae5-a6a6-d4e85ba2f69d" />
+
+<img width="600" height="400" alt="hibrit3" src="https://github.com/user-attachments/assets/06112502-532d-4b48-bbff-85d44c12d0c2" />
+
+<img width="600" height="400" alt="hibrit2" src="https://github.com/user-attachments/assets/d1f07789-902c-46c3-9412-414eaf17bf93" />
+
+<img width="600" height="400" alt="hibrit1" src="https://github.com/user-attachments/assets/c1321bba-6a47-438d-8b83-7c16e3f5b7ad" />
+
 ---
 
 ## 🧠 BCE’de Kısmi Bilinç Tanımı: Neden “Tam” Değil?
@@ -5667,6 +5687,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
