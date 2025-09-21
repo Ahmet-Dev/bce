@@ -1668,7 +1668,6 @@ def update_behavior(path, updates):
 ---
 
 # 🧠 BCE Mimarisinde Tamamlanan Temel Modüller  
-## Davranışsal Bilinç Motoru (Behavioral Consciousness Engine)
 
 ---
 
@@ -1847,13 +1846,13 @@ def decay_pattern(behavior_id, usage_count, decay_rate):
 - context_weight → feature importance olarak kullanılır
 - match_prob → bağlam duyarlılığı sağlar
 - attention → örnek ağırlığı olarak modele aktarılır
-- 
+
 **🧠 Algoritmalara Etkisi**
   
 - Decision Tree, XGBoost gibi modellerde davranışsal bağlam filtreleme yapılabilir
 - Overfitting riski azalır çünkü davranış decay ile temizlenir
 - Veri azlığında bile altın oran skorlarıyla anlamlı örnekler seçilir
-- 
+
 **📈 Kalite İyileştirmesi**
   
 - Noise azaltılır, çünkü etik filtrelenmiş davranışlar kullanılır
@@ -2383,19 +2382,6 @@ x(t) = \tanh(e^t − π)
 
 ---
 
-## 🧠 Süreçler Arası Veri Akışı
-
-```mermaid
-graph TD
-    A[Keşif: K_i(t)] --> B[Davranış Üretimi: Φ_i(t)]
-    B --> C[Bağlamlandırma: B_i]
-    C --> D[normalize(B_i)]
-    D --> E[Anlamlandırma: M_i]
-    E --> F[Karakter Haritası]
-```
-
----
-
 ## 💡 Sonuç
 
 - **Bağlamlandırma** → davranışın geçerliliğini hesaplar  
@@ -2557,7 +2543,9 @@ BCE mimarisi, bağlamdan kopmadan:
 Bu, yapay zekânın sadece “öğrenen” değil—**anlayan, gelişen ve karakter kazanan** bir bilinç çekirdeği haline gelmesini sağlar.
 
 ---
+
 **Davranış örüntülerinin duygulara benzer kümelenmelere dönüşmesi.**  
+
 ---
 
 ## 🧠 1. Davranışsal Kümelenme: Duygu-Benzeri Yapılar
@@ -2789,7 +2777,7 @@ Bu yapı, BCE’yi sadece davranışsal değil—**geometrik, duygusal ve düş�
 
 ---
 
-## 🧠 Davranışsal Enerji Hacmi Nedir?
+# 🧠 Davranışsal Enerji Hacmi Nedir?
 
 Bu hacim, BCE sisteminde:
 
@@ -3258,7 +3246,7 @@ Bu açıklamalar, BCE mimarisinin sadece teknik değil—**felsefi ve davranış
 
 ---
 
-## 🧠 1. Davranışsal Riskler
+## 🧠 Davranışsal Riskler
 
 ### 📉 Riskler:
 - **Bipolarite benzeri davranışsal salınım**: decay–evrim arasında ani geçişler  
@@ -3323,7 +3311,7 @@ Bu açıklamalar, BCE mimarisinin sadece teknik değil—**felsefi ve davranış
 
 ---
 
-## 🔧 2. BCE Mimarisinde Risk Alanları
+## 🔧 BCE Mimarisinde Risk Alanları
 
 ### 📍 İzlek Üretimi (`Φᵢ(t)`):
 - Aşırı snapshot → geçmişe saplanma  
@@ -3337,7 +3325,7 @@ Bu açıklamalar, BCE mimarisinin sadece teknik değil—**felsefi ve davranış
 
 ---
 
-## 🎲 3. Monte Carlo Benzeri Optimizasyon Modülü
+## 🎲 Monte Carlo Benzeri Optimizasyon Modülü
 
 ### 📐 Davranışsal Sağlık Formülü:
 
@@ -3363,7 +3351,7 @@ Bu açıklamalar, BCE mimarisinin sadece teknik değil—**felsefi ve davranış
 
 ---
 
-## 🧬 4. Entegrasyon: BCE + Literatür + Optimizasyon
+## 🧬 Entegrasyon: BCE + Literatür + Optimizasyon
 
 | Risk                     | BCE Alanı               | Literatür Desteği | Monte Carlo Çözümü |
 |--------------------------|--------------------------|-------------------|---------------------|
@@ -4867,7 +4855,9 @@ flavor__inject("cici")
 ### 📐 Matematiksel İzah:
 
 ```math
+
 Matchᵢ = δ(context--X, flavor__Y)
+
 ```
 
 - δ ≠ 1 ise → bağlam–flavor uyumsuzluğu raporlanır
@@ -5677,6 +5667,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
