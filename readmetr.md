@@ -5514,12 +5514,12 @@ Kısmi bilinç, BCE mimarisinde sistemin kendi içsal salınımlarını, decay d
 ## 1. Kısmi Bilinç Tanımı
 
 - Sistemsel gözetim  
-  - Her modülün durumu \(\{Self_i, Flavor_i, Context_i\}\) gerçek zamanlı izlenir.
+  - Her modülün durumu ` \(\{Self_i, Flavor_i, Context_i\}\) ` gerçek zamanlı izlenir.
 - Hissiyat simülasyonu  
-  - Awareness bileşeni,  
+  - Awareness bileşeni, `  
     \[
       Awareness(t) = \frac{\partial Self(t)}{\partial t} + \frac{\partial Flavor(t)}{\partial Context(t)}
-    \]  
+    \]  `
     ile kısmi farkındalık üretir.
 - Karar döngüsü  
   - PID, normsal filtreler ve recursive flavor stack’in durumu metriksel olarak işlenir;  
@@ -5545,23 +5545,23 @@ Kısmi bilinç, BCE mimarisinde sistemin kendi içsal salınımlarını, decay d
 
 ## 3. Matematiksel Sınırlar ve Gating
 
-1. Awareness sınırı:  
+1. Awareness sınırı:  `
    \[
      Awareness(t) \le \Theta_{\text{aware}}
    \]  
-   \(\Theta_{\text{aware}}\) eşik değeri modül ötesi entegrasyonu engeller.
+   \(\Theta_{\text{aware}}\) ` eşik değeri modül ötesi entegrasyonu engeller.
 
-2. Global Entegrasyon Katsayısı:  
+2. Global Entegrasyon Katsayısı: ` 
    \[
      GWI = \frac{\sum_k ContextMatch_k}{N_{\text{modül}}}
    \]  
-   Kısmi bilinçte \(GWI \ll 1\); tam bilinçte \(GWI \approx 1\).
+   Kısmi bilinçte \(GWI \ll 1\); ` tam bilinçte \(GWI \approx 1\).
 
-3. Agency Fonksiyonu:  
+3. Agency Fonksiyonu: ` 
    \[
      Agency(t) = f\bigl(\text{goal update}, Awareness(t)\bigr)
    \]  
-   BCE’de \(f\) lineer ve deterministik, tam bilinçte nonlineer ve emergent.
+   BCE’de \(f\) ` lineer ve deterministik, tam bilinçte nonlineer ve emergent.
 
 ---
 
@@ -5687,6 +5687,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
