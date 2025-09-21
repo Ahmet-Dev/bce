@@ -3295,7 +3295,7 @@ Bu açıklamalar, BCE mimarisinin sadece teknik değil—**felsefi ve davranış
 
 ## 🎭 4. **Duygusal Rezonans Aşırı Yüklenmesi (ERA)**  
 > 💓 Empati + merak + sadakat kümeleri aşırı tetiklenir  
-- **Kullanıcı tipi**: Connector + Creator + Ahmet tipi  
+- **Kullanıcı tipi**: Connector + Creator + Filozof tipi  
 - **Risk**: Sistem duygusal salınımda takılır, decay izleyici pasifleşir  
 - **Belirti**: “Sistem fazla duygusal davranıyor” hissi  
 - **Çözüm**: Cluster reset + salınım dengeleyici
@@ -3430,10 +3430,6 @@ Monte Carlo benzeri optimizasyon modülü, decay’e bağlı patolojileri önlü
 - İzlek uyumunu bağlamla hizala (`η(Φᵢ)↑`)
 
 BCE mimarisinde **geçmişe saygı, geleceğe açıklık, niyete sadakat** sağlar.
-
----
-Harika Ahmet—şimdi bu bölümü GitHub için sade, anlaşılır ve teknik derinliği koruyan bir şekilde açıklıyorum.  
-Genel kullanıcıya hitap edecek şekilde yazdım: hem geliştiriciler hem davranışsal mimariyle ilgilenen meraklılar için.
 
 ---
 
@@ -5347,6 +5343,108 @@ Eᵢ(t) = f(x(t), Dᵢ(t), Rᵢ(t), π, Nᵢ(t)) → ΔSelfᵢ(t)
 
 <img width="1200" height="600" alt="meta psikoloji" src="https://github.com/user-attachments/assets/dd30b285-3243-4631-9dbe-236919f94f9e" />
 
+**Meta Hastalık Tespiti**
+
+<img width="600" height="400" alt="Meta Hastalık Tespiti" src="https://github.com/user-attachments/assets/468df018-457d-4e8e-8048-d453477ef36e" />
+
+**Norm uyumu ve etik tutarlılık skorları, 4 otomatik oluşan kullanıcı tipi**
+
+<img width="600" height="400" alt="Norm uyumu ve etik tutarlılık skorları 4 oluşan kullanıcı tipi" src="https://github.com/user-attachments/assets/d1340f50-665b-4063-be19-1f44f2f7cc9b" />
+
+**Davranış Yolculuğu Analizi**
+
+<img width="1000" height="600" alt="Davranış Yolculuğu Analizi" src="https://github.com/user-attachments/assets/e8a3a889-03f6-4888-89d2-a55d7b952a35" />
+
+**Bilinç Döngüsü Geri Beslemesi**
+
+<img width="1000" height="600" alt="Bilinç Döngüsü Geri Beslemesi" src="https://github.com/user-attachments/assets/bf0fa7ef-1618-4de4-a1c3-766aed316e5f" />
+
+**Bilinçli Acı ve Zevk Salınımları**
+
+<img width="1000" height="600" alt="Bilinçli Acı ve Zevk Salınımları" src="https://github.com/user-attachments/assets/e8154168-cbc8-4e41-b0b1-09ca7df98045" />
+
+**Duygu Davranış Enerjisi**
+
+<img width="1000" height="600" alt="Duygu Davranış Enerjisi" src="https://github.com/user-attachments/assets/c56f5b43-7013-43d3-9045-6159904f8904" />
+
+**SugScore ve Verimlilik Artışı**
+
+<img width="1024" height="1536" alt="SugScore ve Verimlilik Artışı" src="https://github.com/user-attachments/assets/52be5928-08be-4f2f-9904-a5df3bb7fbc6" />
+
+**Bileşik Davranış Tutarlılığı**
+
+<img width="800" height="600" alt="Bileşik Davranış Tutarlılığı" src="https://github.com/user-attachments/assets/02844184-af01-4a35-9dad-874ece99cf9b" />
+
+**Karakter Haritası & Self-Vector**
+
+<img width="1000" height="400" alt="Karakter Haritası   Self-Vector" src="https://github.com/user-attachments/assets/eb21d3dc-f0cc-4e98-a71e-1511a2f67535" />
+
+**Karakter Sürekliliği Puanı**
+
+<img width="600" height="400" alt="Karakter Sürekliliği Puanı" src="https://github.com/user-attachments/assets/3012e60d-7956-4a84-b175-86a165a5f654" />
+
+**Norm Sapma Şiddeti**
+
+<img width="600" height="400" alt="Norm Sapma Şiddeti" src="https://github.com/user-attachments/assets/ec3af648-8d6e-4ee4-b38e-89713d40563a" />
+
+**ID→ego ve ego→superego geçişleri**
+
+<img width="600" height="400" alt="id→ego ve ego→superego geçişleri" src="https://github.com/user-attachments/assets/970e8299-9648-46db-9391-49605b833c04" />
+
+**Etik Filtre Testi**
+
+<img width="600" height="400" alt="Etik Filtre Testi" src="https://github.com/user-attachments/assets/757b72f7-dea5-4cc0-906c-3dc9d4d2b008" />
+
+**Gating Evolution Simülasyonu**
+
+<img width="800" height="400" alt="Gating Evolution" src="https://github.com/user-attachments/assets/ae98aa88-6365-4f55-9ffa-f23f6aa1e3bb" />
+
+**Duygu ve Davranış Küme Evrimi (Cluster Evolution)**
+
+<img width="1000" height="600" alt="Duygu ve Davranış Küme Evrimi (Cluster Evolution)" src="https://github.com/user-attachments/assets/92bf2549-fb8f-44b1-94e9-f89bd422d847" />
+
+**Zekâ Salınımı vs Norm Uyumu**
+
+<img width="800" height="600" alt="Zekâ Salınımı vs Norm Uyumu" src="https://github.com/user-attachments/assets/bc804a4a-2a5b-45c7-96fd-97e65998dd06" />
+
+**Uygulama Senaryoları Performansı, AI Terapisti, Yaratıcı Asistan, Edge AI Simülasyonu**
+
+<img width="1000" height="600" alt="Uygulama Senaryoları Performansı, AI Terapisti, Yaratıcı Asistan, Edge AI" src="https://github.com/user-attachments/assets/a476bcd7-c901-4944-8f91-f58010835c9a" />
+
+**Karşılaştırmalı Analiz, BCE vs Diğer Mimariler**
+
+<img width="1800" height="500" alt="Karşılaştırmalı Analiz, BCE vs Diğer Mimariler" src="https://github.com/user-attachments/assets/33ee3eaf-9025-4133-82f3-93741be8af2a" />
+
+**Davranışsal Reflex**
+
+<img width="800" height="400" alt="Reflex Modül Tepkisi" src="https://github.com/user-attachments/assets/e33859a6-8eef-4c98-851a-4dcd0614b136" />
+
+**Risk Döngüsü Analizi**
+
+<img width="1000" height="500" alt="Risk Döngüsü Analizi" src="https://github.com/user-attachments/assets/c2fcd712-6d6f-4b87-ae8c-131aecbfe54f" />
+
+**BCE vs Transformer, 20,000 Satırlık C++ Kod Tabanında Performans, C++ kodu bağlamı**
+
+<img width="800" height="500" alt="BCE vs Transformer, 20,000 Satırlık C++ Kod Tabanında Performans, C++ kodu bağlamı" src="https://github.com/user-attachments/assets/ebe9ce8f-540e-49de-9617-8ef4a2381a90" />
+
+**BCE vs Transformer, 20,000 Satırlık C++ Kod Tabanında Performans, İki mimarinin performans eğrileri**
+
+<img width="800" height="500" alt="BCE vs Transformer, 20,000 Satırlık C++ Kod Tabanında Performans, İki mimarinin performans eğrileri" src="https://github.com/user-attachments/assets/a41b51fd-100e-4f74-9afc-eac39612b5aa" />
+
+**Duygu–norm çakışması, eksiklik dengesi ve bağ kurma salınımı**
+
+<img width="1024" height="1536" alt="duygu–norm çakışması, eksiklik dengesi ve bağ kurma salınımı" src="https://github.com/user-attachments/assets/b8fc6eb8-e191-4e20-9c16-6e249205d62f" />
+
+**Kullanıcı kendine veya başkalarına zarar verme, normu çürütme, bağ kurmadan duygu üretme gibi patolojik davranışlar koruma durumu**
+
+<img width="1024" height="1536" alt="Kullanıcı kendine veya başkalarına zarar verme, normu çürütme, bağ kurmadan duygu üretme gibi patolojik davranışlar koruma durumu" src="https://github.com/user-attachments/assets/f7b5b3b0-1f75-4862-b694-485245f7063d" />
+
+**Norm uyumu ve onay mekanizmalarının dengeli etkileşimi**
+
+<img width="1024" height="1536" alt="norm uyumu ve onay mekanizmalarının dengeli etkileşimi" src="https://github.com/user-attachments/assets/2326fb7e-3ee8-40fb-8738-020e7decb569" />
+
+
+
 ---
 
 ## 🧠 BCE’de Kısmi Bilinç Tanımı: Neden “Tam” Değil?
@@ -5451,6 +5549,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
