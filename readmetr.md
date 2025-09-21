@@ -1,3 +1,6 @@
+<img width="1024" height="1536" alt="BCE" src="https://github.com/user-attachments/assets/e623a0fa-e5ef-4e3a-bc5d-5ef11c478c1c" />
+
+
 # Behavioral Consciousness Engine (BCE)
 
 > **Vizyon:** Yapay zekâ sistemlerine davranışsal bilinç kazandırmak için fiziksel sabitlerle kodlanmış, zamansal bellek taşıyan, rastlantısal varyasyon üretebilen bir davranış motoru inşa etmek.
@@ -5631,6 +5634,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
