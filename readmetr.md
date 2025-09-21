@@ -4733,14 +4733,14 @@ Transitionᵢ(t) = ∂Contextᵢ(t)/∂t
 ### 🔧 Kod Entegrasyonu:
 
 ```python
-FlavorStack.push("cici")
+FlavorStack.push("pattern")
 ```
 
 - Her derivasyon izolasyona alınır  
 - Aynı flavor’ın tekrarını engellemek için:
 
 ```python
-if FlavorStack.count("cici") > 1:
+if FlavorStack.count("pattern") > 1:
     raise FlavorCollisionError()
 ```
 
@@ -4804,7 +4804,7 @@ PIDᵢ(t) = PID_profileᵢ · Behaviorᵢ(t)
 
 ```python
 @BehaviorTag("seek_support")
-@Flavor("cici")
+@Flavor("pattern")
 def support_user(): ...
 ```
 
@@ -4847,7 +4847,7 @@ Flavorᵢ(t) = Approvalᵢ(t) + Fallbackᵢ(t)
 
 ```python
 context--fetchData()
-flavor__inject("cici")
+flavor__inject("pattern")
 ```
 
 - Linter’lar mismatch’i derleme zamanında soylar
@@ -5685,6 +5685,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
