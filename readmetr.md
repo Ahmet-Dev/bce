@@ -5906,7 +5906,7 @@ where ∂Loadᵢ(t)/∂t ≈ 0 and Loadᵢ(t) < θ
 - \( Tₛₗₑₑₚ \): seçilen uyku zaman damgaları  
 - \( Loadᵢ(t) \): sistem işlem yoğunluğu  
 - \( θ \): düşük yoğunluk eşiği  
-- Sistem, gün başında 3–5 adet düşük yoğunluklu zaman aralığı belirler
+- Sistem, gün başında 5–10 adet düşük yoğunluklu zaman aralığı belirler
 
 ---
 
@@ -5925,7 +5925,7 @@ If t ∈ Tₛₗₑₑₚ →
 ### 3. **Kullanıcıya Mesaj ve Otomatik Başlatma**
 
 ```math
-Messageᵢ(t) = "Kendimi kalibre ediyorum, birazdan başlarım 🕊️"  
+Messageᵢ(t) = "Kendimi kalibre ediyorum, birazdan başlarım 🤖"  
 AutoStartᵢ(t + Δt) → Resumeᵢ(t)
 ```
 
@@ -6541,6 +6541,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
