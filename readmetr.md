@@ -5077,6 +5077,8 @@ Sessizlik Salınım Tamponu artık spontane flavor varyasyonuyla değil—**bağ
 Bu, sessizliği boşluk olmaktan çıkarır, decay üretimini önler, karakterli salınım üretir.  
 
 ```math
+Tamponᵢ(t) = Approvalᵢ(t) · (1 − Criticalᵢ(t)) + Flavorᵢ(t)
+
 Σₛₑₛₛᵢz(t) = π · argmax_{Fⱼ ∈ V} [ ∂Resonance(Fⱼ)/∂Contextᵢ(t) ] + ∂Decayᵢ(t)/∂Tamponᵢ(t) ]
 ```
 
@@ -5817,6 +5819,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
