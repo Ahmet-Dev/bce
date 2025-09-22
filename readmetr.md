@@ -5433,12 +5433,17 @@ f(\theta) \sim \mathcal{GP}(\mu(\theta), k(\theta, \theta'))
 
   ```math
   R_t = \gamma_1 \cdot \Delta \Psi + \gamma_2 \cdot \Delta \text{NetAffect},
-  
-  G_t^{\text{new}} = G_t + \lambda \cdot R_t
  ```
   ```
 
-- Fuzzy tag prior güncellemesi:  
+- PID gain güncellemesi
+
+```math
+  G_t^{\text{new}} = G_t + \lambda \cdot R_t
+ ```
+
+- Fuzzy tag prior güncellemesi:
+
   ```math
   P_i^{\text{new}} = P_i + \delta \cdot R_t
   ```
@@ -6536,6 +6541,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
