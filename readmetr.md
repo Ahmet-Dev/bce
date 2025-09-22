@@ -5424,18 +5424,16 @@ f(\theta) \sim \mathcal{GP}(\mu(\theta), k(\theta, \theta'))
 ## 🧠 3. Self-Reward Motoru: İçsel Ödül Üretimi
 
 - İyileşme ölçümü:  
-  \[
+  ```math
   \Delta \Psi = \Psi_{\text{after}} - \Psi_{\text{before}}, \quad \Delta \text{NetAffect} = A_{\text{after}} - A_{\text{before}}
   ```
 
-- Ödül sinyali:  
+- Ödül sinyali ve PID gain güncellemesi:  
   ```math
   R_t = \gamma_1 \cdot \Delta \Psi + \gamma_2 \cdot \Delta \text{NetAffect}
- ```
 
-- PID gain güncellemesi:  
-  ```math
   G_t^{\text{new}} = G_t + \lambda \cdot R_t
+ ```
   ```
 
 - Fuzzy tag prior güncellemesi:  
@@ -6536,6 +6534,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
