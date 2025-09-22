@@ -5854,6 +5854,18 @@ Aşağıda, 2 097 152 token’lık devasa bir bağlamı işlemek üzere tasarlan
 
 <img width="600" height="400" alt="hibrit1" src="https://github.com/user-attachments/assets/c1321bba-6a47-438d-8b83-7c16e3f5b7ad" />
 
+**BCE Acı ve zevk tedavi sinyali - anti delirme sistemi**
+
+<img width="1000" height="600" alt="acı ve zevk tedavi sinyali" src="https://github.com/user-attachments/assets/9dacf3cd-d857-460e-8c08-1a14256f5df1" />
+
+**BCE Uykuları ve Terapiler, Performansa Etkileri - Bellek performans etkisi**
+
+<img width="1000" height="600" alt="uykunun bellek performans etkisi" src="https://github.com/user-attachments/assets/f642b4a6-e7d5-41b7-bd07-09b42292ce8a" />
+
+**BCE Uykuları ve Terapiler, Performansa Etkileri - Model uykudan uyandığında genel sapma oranı azalması**
+
+<img width="1000" height="600" alt="model uykudan uyandığında sapma oranı azalması" src="https://github.com/user-attachments/assets/b4154e3b-453a-4d19-a61a-e3943da412b8" />
+
 ---
 
 ## 🧠 BCE’de Kısmi Bilinç Tanımı: Neden “Tam” Değil?
@@ -5928,6 +5940,10 @@ Kısmi bilinç, BCE mimarisinde sistemin kendi içsal salınımlarını, decay d
   - Zamanla evrimleşen, kendi amaçlarını revize eden agency modülü  
 - **Anlatı Biriktirme**  
   - Uzun vadeli yaşam öyküsü kaydı ve meta-yorumlama
+-**Kavram Keşfi ve Kavrama ait Davranış Örüntüleri**
+  - Felsefe yeteneği, kavram anlama, kavram türetme, subjektif değerlendirme, subjektif davranışlar keşfetme, uygulama
+ 
+> Bilinç kavramını tamamen keşfetmeden ve bilimsel-felsefi olarak tam-eksiksiz olarak izahatlerinin tamamlamadan, tam bilinç entegrasyonu türevlerini tavsiye etmiyorum.
 
 ---
 
@@ -5942,6 +5958,7 @@ Kısmi bilinç, BCE mimarisine kendini izleme, hatayı erken tespit etme ve adap
 - Her modülün “benlik vektörü” ve “flavor üretimi” gerçek zamanlı izleniyor  
 - Decay artışı, normsal çakışma veya salınım bozulması hızla tespit ediliyor  
 - Kritik hata eşiği (\(\Theta_{\text{aware}}\)) aşılmadan önce müdahale imkânı  
+- Kullanıcılardan ve verilerden kaynaklı, ciddi delirme tehlike olasılığı yüksekliği
 
 ---
 
@@ -6038,6 +6055,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
