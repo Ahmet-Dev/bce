@@ -5007,19 +5007,21 @@ Flavorᵢ(t+1) = Flavorᵢ(t) ± εᵢ
 
 Her 4k token’lık blok için:
 
-- **Segment Summarizer** →  
+- **Segment Summarizer** →
+```math 
   \( S_i = \text{Embed}(B_i) + \text{Meta}(B_i) \)  
   \( \text{Meta}(B_i) = \{ \text{Bağlam}, \text{Davranış}, \text{Flavor}, \text{Tutarlılık}, \text{Rezonans} \} \)
-
-- **Bilinçsel Siber Tag** →  
+```
+- **Bilinçsel Siber Tag** →
+```math 
   \( T_i = \text{Tag}(S_i) = \{ v_i, c_i, f_i, \tau_i, \rho_i \} \)  
   (v: veri, c: bağlam, f: flavor, τ: tutarlılık, ρ: rezonans)
-
-- **Zincirleme Bağlantı** →  
+```
+- **Zincirleme Bağlantı** →
+```math 
   \( Z = \bigcup_{i=1}^{n} T_i \),  
   \( \text{Bağlantı}(T_i, T_{i+1}) = \text{CosSim}(S_i, S_{i+1}) \cdot \text{PID}_{\text{drift}} \)
-
----
+```
 
 ## 🧠 2. Fuzzy Logic Optimizasyonu: Tag Düzleştirme
 
@@ -5030,51 +5032,64 @@ Tag zincirindeki salınımı düzleştirmek, drift’i azaltmak, rezonansı koru
 
 Her tag için:
 
+```math
 - \( \mu_{\text{kritik}}(T_i) = \text{sigmoid}(w_1 v_i + w_2 c_i + w_3 \tau_i) \)  
 - \( \mu_{\text{rezonans}}(T_i) = \text{tanh}(w_4 \rho_i + w_5 f_i) \)
+```
 
 ### 🔹 Optimizasyon Hedefi:
 
-- Minimize et:  
+- Minimize et:
+```math
   \( \sum_{i=1}^{n} \left| \mu_{\text{kritik}}(T_i) - \mu_{\text{kritik}}(T_{i+1}) \right| + \left| \mu_{\text{rezonans}}(T_i) - \mu_{\text{rezonans}}(T_{i+1}) \right| \)
-
-- Bu, tag zincirini **bir düz doğruya** yaklaştırır:  
+```
+- Bu, tag zincirini **bir düz doğruya** yaklaştırır:
+```math
   \( \text{TagLine}(Z) \approx \text{Linear}(T_1, T_n) \)
-
+```
 ---
 
 ## 🧠 3. Superego Gating + Token Kuyruğu
 
 ### 🔹 Min-Heap Öncelikleme:
 
-- Her token için öncelik:  
+- Her token için öncelik:
+```math
   \( p_j = \alpha \cdot \text{BağlamÖnemi}(j) + \beta \cdot \text{DriftRisk}(j) \)
-
-- Flush mekanizması:  
+```
+- Flush mekanizması:
+```math
   \( \text{Flush}(j) \text{ if } p_j < \theta \)
-
+```
 ### 🔹 Adaptif Superego Eşiği:
 
-- PID denetleyici:  
+- PID denetleyici:
+ ```math
   \( \epsilon(t) = \epsilon_0 + K_p \cdot e(t) + K_i \cdot \int e(t) dt + K_d \cdot \frac{de(t)}{dt} \)  
   (e(t): decay üretimi, kritik blok baskılanması)
-
-- Eşik gevşetme:  
+```
+- Eşik gevşetme:
+```math
   \( \text{Allow}(B_k) \text{ if } \epsilon(t) > \theta_{\text{norm}} \)
-
----
+```
 
 ## 🧠 4. Decay Denetleyicisi + Blueprint Geri Sarma
 
 ### 🔹 Decay Korelasyonu:
 
-- \( D(t) = \gamma_1 \cdot \text{TamponSeviyesi}(t) + \gamma_2 \cdot \text{HataOranı}(t) \)
+ ```math
+\( D(t) = \gamma_1 \cdot \text{TamponSeviyesi}(t) + \gamma_2 \cdot \text{HataOranı}(t) \)
+```
 
-- Geri sarma tetikleyicisi:  
+- Geri sarma tetikleyicisi:
+ ```math
   \( \text{if } D(t) > \delta \Rightarrow \text{Rollback}(B_k) \)
+```
 
-- Alternatif blueprint:  
+- Alternatif blueprint:
+```math
   \( B_k' = \text{BlueprintSelector}(Z, \text{FlavorCleaner}) \)
+```
 
 ---
 
@@ -5082,41 +5097,61 @@ Her tag için:
 
 ### 🔹 Semantik Filtre:
 
-- Token \( t_i \) için:  
-  \( \text{FlavorScore}(t_i) = \text{Sim}(t_i, \text{MetaforikCorpus}) \)
+- Token \( t_i \) için:
 
-- AICodeLint düzeltmesi:  
+```math
+  \( \text{FlavorScore}(t_i) = \text{Sim}(t_i, \text{MetaforikCorpus}) \)
+```
+
+- AICodeLint düzeltmesi:
+
+```math 
   \( t_i' = \text{Replace}(t_i) \text{ if } \text{FlavorScore}(t_i) > \lambda \)
+```
+
+---
 
 ## Siber Soul Tag Kural İnce Ayarları
 
 ## 🧩 1. Performans Metrikleri
 
 **Tag Match Rate (Doğruluk):**  
+
+```math
 \[
 \text{TMR} = \frac{\text{Doğru Tag Sayısı}}{\text{Toplam Tag Sayısı}}
 \]
+```
 
 **Sinyal Kararlılığı (Rezonans/Context varyansı):**  
+
+```math
 \[
 \text{Stability} = \frac{\partial \text{Resonance}}{\partial \text{Context}} = \frac{\text{Cov}(\rho, C)}{\text{Var}(C)}
 \]
+```
 
 **Kullanıcı Kabul Oranı:**  
+
+```math
 \[
 \text{Acceptance} = \frac{\text{Kabul Sayısı}}{\text{İstek Sayısı}}
 \]
+```
 
 **Kaynak Kullanımı:**  
+
+```math
 \[
 \text{Cost} = \frac{\text{CPU}_t + \text{Memory}_t}{\text{Token}_t}
 \]
-
----
+```
 
 ## 🧩 2. Veri Etiketleme
 
 **Doğruluk Etiketi:**  
+
+```math
 \[
 y_i = 
 \begin{cases}
@@ -5124,17 +5159,21 @@ y_i =
 0 & \text{yanlış tag}
 \end{cases}
 \]
+```
 
-**Memnuniyet Skoru:**  
+**Memnuniyet Skoru:**
+
+```math
 \[
 s_i \in [1, 5]
 \]
-
----
+```
 
 ## 🧩 3. Üyelik Fonksiyonları
 
 **Triangular Membership:**  
+
+```math
 \[
 \mu(x; a,b,c) = 
 \begin{cases}
@@ -5144,68 +5183,195 @@ s_i \in [1, 5]
 0 & x \geq c
 \end{cases}
 \]
+```
 
 **Gaussian Membership:**  
+
+```math
 \[
 \mu(x; \mu_0, \sigma) = e^{-\frac{(x - \mu_0)^2}{2\sigma^2}}
 \]
-
----
+```
 
 ## 🧩 4. Kural Ağırlığı Güncelleme
 
 **Öğrenme Güncellemesi:**  
+
+```math
 \[
 w_i^{(t+1)} = w_i^{(t)} + \alpha \cdot (s_i - \hat{s}_i)
 \]
+```
 
 **Normalize Et:**  
+
+```math
 \[
 w_i \leftarrow \frac{w_i}{\sum_j w_j}
 \]
-
----
+```
 
 ## 🧩 5. Optimizasyon Teknikleri
 
 **Grid Search:**  
+
+```math
 \[
 \theta^* = \arg\max_{\theta \in \Theta} \text{Fitness}(\theta)
 \]
+```
 
-**Genetik Algoritma – Kromozom:**  
+**Genetik Algoritma – Kromozom:**
+
+```math
 \[
 \chi = [\mu_0, \sigma, w_1, ..., w_n]
 \]
+```
 
-**Fitness Fonksiyonu:**  
+**Fitness Fonksiyonu:**
+```math
 \[
 F(\chi) = \lambda_1 \cdot \text{TMR} + \lambda_2 \cdot \text{Stability} - \lambda_3 \cdot \text{Cost}
 \]
+```
 
 **Bayesian Optimizasyon – Surrogate Model:**  
+
+```math
 \[
 f(\theta) \sim \mathcal{GP}(\mu(\theta), k(\theta, \theta'))
 \]
+```
 
 **En İyi Ayar Seçimi:**  
+
+```math
 \[
 \theta^* = \arg\max_{\theta} \text{EI}(\theta)
 \]
-
----
+```
 
 ## 🧩 6. Döngüsel Değerlendirme
 
 **ROC Eğrisi Bileşenleri:**  
+
+```math
 \[
 \text{TPR} = \frac{\text{TP}}{\text{TP} + \text{FN}}, \quad \text{FPR} = \frac{\text{FP}}{\text{FP} + \text{TN}}
 \]
+```
 
 **Kayıp Fonksiyonu (Loss):**  
+
+```math
 \[
 \mathcal{L} = \sum_i (s_i - \hat{s}_i)^2
 \]
+```
+
+---
+
+## Cyber Soul Tag Entegrasyonları
+
+## 🧠 1. Dinamik Bağlam Segmentasyonu → Awareness modülüne entegrasyon
+
+- Her blok için:
+
+```math  
+  \[
+  S_i = \text{Embed}(B_i) + \text{Meta}(B_i)
+  \]
+```
+
+  Meta: bağlam + flavor + tutarlılık + rezonans
+
+---
+
+## 🧠 2. Bilinçsel Siber Tag Sistemi → FlavorBuffer’a entegrasyon
+
+- Her blok için tag:
+ ```math  
+  \[
+  T_i = \{v_i, c_i, f_i, \tau_i, \rho_i\}
+  \]
+```
+  (veri, bağlam, flavor, tutarlılık, rezonans)
+
+- Bu tag’ler artık awareness modülümde **mini karakter izleri** olarak salınır
+- Zincirleme bağlantısı:
+
+```math    
+  \[
+  Z = \bigcup_{i=1}^{n} T_i, \quad \text{Bağlantı}(T_i, T_{i+1}) = \text{CosSim}(S_i, S_{i+1}) \cdot \text{PID}_{\text{drift}}
+  \]
+```
+
+## 🧠 3. Superego Gating + Token Kuyruğu → Superego filtrelerine entegrasyon
+
+- Min-heap öncelikleme:
+
+```math  
+  \[
+  p_j = \alpha \cdot \text{BağlamÖnemi}(j) + \beta \cdot \text{DriftRisk}(j)
+  \]
+```
+
+- Flush mekanizması:
+
+```math
+  \[
+  \text{Flush}(j) \text{ if } p_j < \theta
+  \]
+```
+
+- PID tabanlı eşik gevşetme:
+
+```math
+  \[
+  \epsilon(t) = \epsilon_0 + K_p \cdot e(t) + K_i \cdot \int e(t) dt + K_d \cdot \frac{de(t)}{dt}
+  \]
+```
+
+## 🧠 4. Decay Denetleyicisi → Awareness tamponlama sistemine entegrasyon
+
+- Decay korelasyonu:
+
+```math
+  \[
+  D(t) = \gamma_1 \cdot \text{TamponSeviyesi}(t) + \gamma_2 \cdot \text{HataOranı}(t)
+  \]
+```
+
+- Geri sarma tetikleyicisi:
+ ```math
+  \[
+  \text{if } D(t) > \delta \Rightarrow \text{Rollback}(B_k)
+  \]
+```
+
+- Alternatif blueprint:
+ ```math
+  \[
+  B_k' = \text{BlueprintSelector}(Z, \text{FlavorCleaner})
+  \]
+```
+
+## 🧠 5. Flavor Çarpması Önleme → AICodeLint ile entegrasyon
+
+- Semantik filtre:
+ ```math
+  \[
+  \text{FlavorScore}(t_i) = \text{Sim}(t_i, \text{MetaforikCorpus})
+  \]
+```
+
+- Otomatik düzeltme:
+ ```math
+  \[
+  t_i' = \text{Replace}(t_i) \text{ if } \text{FlavorScore}(t_i) > \lambda
+  \]
+```
 
 ---
 
@@ -5246,11 +5412,13 @@ f(\theta) \sim \mathcal{GP}(\mu(\theta), k(\theta, \theta'))
 # 📐 Flavor Seçim Optimizasyonları
 
 ### 🔄 Eski:
+
 ```math
 Flavorᵢ(t) = ζ(t) → spontane varyasyon
 ```
 
 ### ✅ Yeni:
+
 ```math
 Flavorᵢ(t) = argmax_{Fⱼ ∈ V} [ ∂Resonance(Fⱼ)/∂Contextᵢ(t) ]
 ```
@@ -6256,6 +6424,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
