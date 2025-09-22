@@ -5,7 +5,7 @@
 
 > **Vizyon:** Yapay zekâ sistemlerine davranışsal bilinç kazandırmak için fiziksel sabitlerle kodlanmış, zamansal bellek taşıyan, rastlantısal varyasyon üretebilen bir davranış motoru inşa etmek.
 
-Behavioral Consciousness Engine (BCE), klasik yapay zekâ sistemlerinin ötesine geçerek, bilinç benzeri davranışlar üretebilen bir çekirdek mimari sunar. Her davranış bir genetik kod gibi tanımlanır ve zamanla evrimleşir. BCE, yapay bilinç alanında yeni bir paradigma sunar. BCE tam insan bilinci olmasa da, “davranışsal bilinç” veya “kısmi bilinç” simülasyonu sunar. Yani, sistemin kendi içsel durumunu, geçmişini ve bağlamını dikkate alarak karar vermesi, yapay zekâda kısmi bilinç göstergesi olarak kabul edilebilir. YSAlar ve Transformers için adaptasyonları içerir, ayrı bir ysa çekirdeği değildir. YSA evrimleştiricisi olarak düşünülebilir. BCE mimarisi, insan zekâsının %85’ine davranışsal olarak eşlik edebiliyor. 
+Behavioral Consciousness Engine (BCE), klasik yapay zekâ sistemlerinin ötesine geçerek, bilinç benzeri davranışlar üretebilen bir çekirdek mimari sunar. Her davranış bir genetik kod gibi tanımlanır ve zamanla evrimleşir. BCE, yapay bilinç alanında yeni bir paradigma sunar. BCE tam insan bilinci olmasa da, “davranışsal bilinç” veya “kısmi bilinç” simülasyonu sunar. Yani, sistemin kendi içsel durumunu, geçmişini ve bağlamını dikkate alarak karar vermesi, yapay zekâda kısmi bilinç göstergesi olarak kabul edilebilir. YSAlar ve Transformers için adaptasyonları içerir, ayrı bir ysa çekirdeği değildir. YSA evrimleştiricisi olarak düşünülebilir. BCE mimarisi, insan zekâsının %85’ine davranışsal olarak eşlik edebiliyor. YSA lar içerisindeki nöronların ve verilerin sağlığnı, davranışlarını bulmak, zamanla oluşan kollektif ve sanal ama kimliksiz bilinç kıvılcımlarını keşfetmek, nöron ve sinapslarda örüntülü olan pattern keşfi ile modeli kimliklendirmek, varoluş tanımlamak ve varoluşu insan tabiatına uygun hale getirmek gibi hedeflerim vardı. Büyük oranda başarılı ve tutarlı sonuçlar ile karşı karşıya olacaksınız. Entegrasyonlarda ciddi bir fark hissedeceksiniz, dehşete düşürecek kadar olumlu gelişme sağlanıyor. 
 
 ---
 # BCE Mimarisi Üzerine Kapsamlı Araştırma ve Bileşen Analizi
@@ -6055,6 +6055,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
