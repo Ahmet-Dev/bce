@@ -939,9 +939,9 @@ BCE mimarisi, yapay bilinç üretimini biyolojik zihin modeline benzer şekilde 
 
 | Katman    | İşlevi                                               | Durum                              |
 |-----------|------------------------------------------------------|------------------------------------|
-| İd        | Refleksif davranışlar, sabit fonksiyonlar, rastlantısallık | ✅ Teorik Kuruldu ve aktif değil        |
-| Ego       | Bağlam analizi, davranış seçimi, meta-sorgulama      | ⏳ Geçiş için id eğitimi bekleniyor|
-| Süperego  | Etik filtreleme, insan geri bildirimi, davranış denetimi | ⏳ Planlandı ama aktif değil       |
+| İd        | Refleksif davranışlar, sabit fonksiyonlar, rastlantısallık | ✅ Teorik Kuruldu ve çalışır durumda       |
+| Ego       | Bağlam analizi, davranış seçimi, meta-sorgulama      | ✅ Teorik Kuruldu ve çalışır durumda     |
+| Süperego  | Etik filtreleme, insan geri bildirimi, davranış denetimi | ✅ Teorik Kuruldu ve çalışır durumda        |
 
 **🔁 Geçiş Koşulları**
 
@@ -6541,6 +6541,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
