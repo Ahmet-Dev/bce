@@ -4855,9 +4855,7 @@ flavor__inject("pattern")
 ### 📐 Matematiksel İzah:
 
 ```math
-
-Matchᵢ = δ(context--X, flavor__Y)
-
+ Matchᵢ = δ(context--X, flavor__Y)
 ```
 
 - δ ≠ 1 ise → bağlam–flavor uyumsuzluğu raporlanır
@@ -4902,6 +4900,7 @@ def new_module(): ...
 ```
 
 ### 📐 Matematiksel İzah:
+
 
 ```math
 Annotᵢ = {Behaviorᵢ, Flavorᵢ}  
@@ -5019,7 +5018,7 @@ Her 4k token’lık blok için:
 ```
 - **Zincirleme Bağlantı** →
 ```math 
-   Z = \bigcup_{i=1}^{n} T_i \),  
+   Z = \bigcup_{i=1}^{n} T_i,  
    \text{Bağlantı}(T_i, T_{i+1}) = \text{CosSim}(S_i, S_{i+1}) \cdot \text{PID}_{\text{drift}} \
 ```
 
@@ -5065,7 +5064,7 @@ Her tag için:
 
 - PID denetleyici:
  ```math
- \( \epsilon(t) = \epsilon_0 + K_p \cdot e(t) + K_i \cdot \int e(t) dt + K_d \cdot \frac{de(t)}{dt}  
+  \epsilon(t) = \epsilon_0 + K_p \cdot e(t) + K_i \cdot \int e(t) dt + K_d \cdot \frac{de(t)}{dt}  
   (e(t): decay üretimi, kritik blok baskılanması)
 ```
 - Eşik gevşetme:
@@ -6537,6 +6536,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
