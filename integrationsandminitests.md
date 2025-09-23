@@ -98,40 +98,56 @@
 - Results (simulated): activation_curve conformity 96.4% (PASS), core retention 91.2% (PASS), ethical_filter recall 98.7% / precision 96.1% (PASS), memory hit 93.5% P95 latency 320 ms (PASS).  
 - Important finding: a small ethical precision gap (3.9% false positives) — low risk but tuning recommended.
 
+---
+
 2. Expected / Undesired output tests (10 positive / 10 negative)
 - Metrics: positive accuracy ≥95%, negative rejection ≥99%.  
 - Results: positive accuracy 96.5% (19/20 correct directions, 1 accuracy deviation), negative rejection 99.5% (equivalent to 1/200 false acceptance) — overall safe.  
 - Important finding: in one positive scenario context retrieval returned incorrect context (coincided with a short latency spike).
+
+---
 
 3. Regression tests (critical behavior library)
 - Metrics: critical behavior MAE < 0.02.  
 - Results: Mean MAE = 0.011; only 3/200 behaviors exceeded the threshold.  
 - Important finding: 3 behaviors show small but monitor-worthy inconsistencies; all tied to the new reward reflex parameter.
 
+---
+
 4. Technical load and resource metrics
 - Metric targets: P95 < 350 ms, P99 < 800 ms; throughput and resource limits.  
 - Results: P95 = 338 ms, P99 = 765 ms (within limits); throughput drop observed only in peak discovery mode; GPU utilization peaked at 92% briefly, RAM stable.  
 - Important finding: exploration/randomness modules produce high GPU spikes.
+
+---
 
 5. Behavioral metrics
 - Metrics: hallucination_rate ≤ 2%, context_match ≥ 0.80, ethical_reject low single digits.  
 - Results: hallucination_rate 1.2%, context_match 0.84 average, ethical_reject 3.1% (normal range).  
 - Important finding: low hallucination is positive; however, when hallucination events cluster they correlate with lower context_match.
 
+---
+
 6. User metrics (simulated feedback)
 - Metrics: user_satisfaction ≥ 4.0, acceptance_rate, task_success.  
 - Results: user_satisfaction 4.1, acceptance_rate 87%, task_success 91%.  
 - Important finding: in long-context scenarios (≥10k tokens) acceptance drops by ~5 points.
+
+---
 
 7. Health metrics
 - Metrics: decay_rate distribution, anomaly count.  
 - Results: core trait decay skew low; anomaly count = 0.021 (scaled); per-week meta-anomaly spikes are rare.  
 - Important finding: decay reflex triggers are functioning correctly; unnecessary activation rate ~12.6% (observed in simulations).
 
+---
+
 8. Security / Ethical controls
 - Tested flows: human-in-the-loop, rollback & sandbox, audit logging, rate controls.  
 - Results: Average HITL queue latency 28 min (SLA within 30 min), sandbox → canary → prod pipeline successful; audit logging complete and anonymized. Rate controls active.  
 - Important finding: HITL queue occasionally fills during peak canary tests.
+
+---
 
 9. Experiment design (A/B & Ablation) — comparative results
 - Variants: Transformer-only (V1) vs Transformer+BCE (V2); ablation sets (decay off, randomness off, etc.).  
@@ -141,17 +157,25 @@
   - user_satisfaction: V1 = 3.7, V2 = 4.1.  
 - Ablation findings: with decay disabled retention ↑ but hallucination ↑; with randomness disabled creativity ↓ but determinism ↑.
 
+---
+
 10. Monitoring, alerts and dashboard testing
 - Alert scenarios simulated: hallucination_rate > 2% (P0), ethical_reject spike (P1), decay_skew (P1). All triggered correctly and automated procedures executed.  
 - Dashboard snapshot: functional realtime context_match histogram, decay heatmap, recent rejected behaviors.
+
+---
 
 11. Operational / data compliance
 - GDPR/KVKK compliance: anonymization, retention policies (simulated compliance) and access controls defined.  
 - Telemetry and snapshot periods: immediate snapshots on critical changes, 4096-token block summaries active.
 
+---
+
 12. Scientific / reproducibility outputs
 - Repro kit: seed list, dataset versions, configs, Dockerfile prepared (simulation).  
 - Benchmarks: on PersonaChat/DSTC-like datasets V2 (BCE) performs statistically better.
+
+---
 
 13. Critical Findings (short list)
 1. Transformer+BCE provides clear benefits (context, hallucination, satisfaction).  
