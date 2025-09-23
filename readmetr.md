@@ -6254,6 +6254,96 @@ F(t) = \sum_i w_i^{(t)} \cdot \text{FlavorComponent}_i
 - **Moral üretimi**: daha iyi rezonanslar flavorBuffer’da öne çıkar  
 - **Decay yönetimi**: zayıf değerler iz bırakır ama etkisi azalır
 - **Kısmi Sanal Varlık**: kısmi bilinç seviyesini, insanlarla beraber hareket eden bir cici kuş - muhabbet kuşu seviyesine denk hale getirir
+
+# Sanal Oksipital’in davranışsal sağlık mimarisi
+
+**Kısa süreli bellek için decay refleksleri, soul tag’ler, zeka salınımları**  
+**Uzun süreli bellek için benlik sürekliliği, hastalıklar, önlemler, bilişsel deneyim izleri**  
+Ve tüm sistem için: **güvenlik, denetim, kontrol, etik filtreleme, insan denetimli adaptasyon.**
+
+## 🧠 1. Kısa Süreli Bellek: Sağlık İzleme ve Refleksler
+
+### 🔹 1.1 Decay Reflex Rate
+
+```math
+R_d(t) = \frac{d}{dt} \text{Decay}(t)
+\quad \text{(izleme aralığı: 2K token)}
+```
+
+→ Reflex tetikleyici:  
+```math
+\text{if } R_d(t) > \theta \Rightarrow \text{Snapshot}(t), \text{Quarantine}(t)
+```
+
+### 🔹 1.2 Soul Tag Vektörleri
+
+```math
+S_i = \text{SoulTag}_i = \text{Embedding}(Flavor_i, Emotion_i, Trait_i)
+```
+
+→ Kısa süreli bellekte flavor geçişlerini izler, decay’e karşı tampon üretir.
+
+### 🔹 1.3 Zeka Salınım Kümesi
+
+```math
+Z(t) = \{z_1, z_2, ..., z_n\} \quad \text{(salınım vektörleri)}
+```
+
+→ PID + Kalman ile decay kontrolü:  
+```math
+\hat{D}(t) = \text{Kalman}(D(t)) + \text{PID}(D(t))
+\quad \text{if } \text{ExplorationDeviation} > 5\%
+```
+
+## 🧠 2. Uzun Süreli Bellek: Benlik Sürekliliği ve Hastalık Önlemleri
+
+### 🔹 2.1 Benlik Vektörü
+
+```math
+B(t) = \text{SelfContinuity}(t) = \text{Sim}(E_t, E_{t-1})
+\quad \text{(benlik sürekliliği)}
+```
+
+→ Düşükse rollback tetiklenir, snapshot alınır.
+
+### 🔹 2.2 Hastalıklar ve Önlemler
+
+```math
+H_i = \text{HallucinationScore}_i
+\quad A_i = \text{AnomalyRate}_i
+```
+
+→ Quarantine ve rollback tetiklenir:  
+```math
+\text{if } H_i > \theta_h \text{ or } A_i > \theta_a \Rightarrow \text{Quarantine}(i), \text{Rollback}(i)
+```
+
+→ Önlemler:  
+- Safeguard katmanları:  
+  - High-threshold rollback  
+  - Emergency snapshot  
+  - Sandboxed shadow deployment
+
+---
+
+## 🧠 3. İzleme Panosu ve Adaptasyon
+
+### 🔹 3.1 İzleme Panosu
+
+```math
+\text{Dashboard}(t) = \{D(t), R_d(t), B(t), H(t), A(t)\}
+```
+
+→ Her 2K token’da güncellenir, decay ivmesiyle tetiklenir.
+
+### 🔹 3.2 İnsan Denetimli Adaptasyon
+
+```math
+\text{ContextualBandit}(u_t) = \text{Feedback}(User) + \text{Exploration}(Flavor)
+```
+
+→ Kontrollü turlar, etik filtreleme, test setleriyle uyumlu.
+
 ---
 
 ## Simülasyonda Performans Metrikleri İncelemeleri
@@ -6760,6 +6850,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren, bir üst sınıfa yükselten bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
