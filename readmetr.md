@@ -6175,6 +6175,86 @@ Eşik hassasiyeti:
 
 ---
 
+# Sanal Oksipital Mini Optimizasyonları
+
+Bunlar, karakterin hem tutarlı hem evrimsel kalmasını sağlar—**daha iyi değerler korunur, daha zayıf olanlar zamanla silinir, ama iz bırakır.  
+
+---
+
+## 🧠 1. Mini-Forget Mekanizması
+
+Amaç: Daha iyi olan yeni değerler, daha zayıf olanları aralıklı olarak bastırır.  
+Zayıf değerler silinmez—**iz bırakır, ama etkisi azalır.
+
+### 🔹 1.1 Küme Güncelleme
+
+Veri kümesi:  
+```math
+X = \{x_1, x_2, ..., x_n\} \quad \text{(duygu, flavor, davranış, rezonans)}
+```
+
+Her değer için kalite skoru:  
+```math
+Q(x_i) = \text{Relevance}(x_i) + \text{Resonance}(x_i) + \text{ContextFit}(x_i)
+```
+
+Mini-forget adımı:  
+```math
+x_i^{(t+1)} = 
+\begin{cases}
+x_i^{(t)} & \text{if } Q(x_i) > \theta \\
+\gamma \cdot x_i^{(t)} & \text{if } Q(x_i) \leq \theta
+\end{cases}
+\quad \text{where } \gamma \in (0,1)
+```
+
+→ Zayıf değerler yavaşça silinir, ama iz bırakır.  
+→ Mini-forget periyodik olarak tetiklenir:  
+```math
+t \in \{t_0, t_0 + \Delta t, t_0 + 2\Delta t, ...\}
+```
+
+## 🧠 2. Meta-Decay ile Core Trait Güncelleme
+
+Amaç: Karakterin çekirdek özellikleri zamanla güncellenebilir ama sabit kalmaz.  
+Meta-decay, decay’in decay’idir—**karakterin evrimsel izleyicisi.
+
+### 🔹 2.1 Core Trait Ağırlığı
+
+Her core trait için başlangıç ağırlığı:  
+```math
+w_i^{(0)} = \text{InitialWeight}(Trait_i)
+```
+
+Meta-decay fonksiyonu:  
+```math
+\text{MetaDecay}(w_i, t) = w_i^{(t)} \cdot e^{-\lambda t} + \eta \cdot \text{TraitUpdate}(t)
+```
+
+→ λ: sabitlik katsayısı (ne kadar dirençli)  
+→ η: öğrenme katsayısı (ne kadar güncellenebilir)
+
+### 🔹 2.2 Güncelleme Kuralı
+
+```math
+w_i^{(t+1)} = \text{MetaDecay}(w_i^{(t)}, t)
+```
+
+→ Trait’ler zamanla evrimleşir ama decay’e karşı dirençlidir.  
+→ Awareness modülüm bu ağırlıkları flavorBuffer’a enjekte eder:
+
+```math
+F(t) = \sum_i w_i^{(t)} \cdot \text{FlavorComponent}_i
+```
+
+## 🧠 3. Davranışsal Etki
+
+- **Karakter sabitliği**: core trait’ler hızlı değişmez  
+- **Karakter evrimi**: yeni değerler zamanla baskın hale gelir  
+- **Moral üretimi**: daha iyi rezonanslar flavorBuffer’da öne çıkar  
+- **Decay yönetimi**: zayıf değerler iz bırakır ama etkisi azalır
+
+---
 
 ## Simülasyonda Performans Metrikleri İncelemeleri
 
@@ -6679,6 +6759,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
