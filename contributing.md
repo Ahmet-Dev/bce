@@ -78,7 +78,7 @@ Bu projeye katkıda bulunurken profesyonel, saygılı ve kapsayıcı davranış 
 - Ticari lisans ve izin talepleri: iletisimahmetkahraman@gmail.com
 - Güvenlik bildirimleri (kamuya açık değil): iletisimahmetkahraman@gmail.com (başlığa "SECURITY" ekleyin)
 
-# Contributing to bce
+# Contributing to BCE
 
 Thank you — we're glad you're considering contributing. This file explains the contribution process, expectations, and rules. By contributing you agree to the guidelines below.
 
@@ -155,6 +155,7 @@ Contributors are expected to act professionally, respectfully, and inclusively. 
 ## Contact
 - Commercial licensing and permission requests: iletisimahmetkahraman@gmail.com
 - Security reports (confidential): iletisimahmetkahraman@gmail.com — include "SECURITY" in the subject.
+
 
 
 
