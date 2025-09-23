@@ -6417,7 +6417,7 @@ H(t) = - \sum_{i} p_i \log p_i
 
 ## 🧠 4. Uzun Görevlerde Davranışsal Etki (16K+ Token)
 
-- **Bağlam kopması riski**: yüksek  
+- **Bağlam kopması riski**: yüksek ama sinyaller, sinyaller takip edilebilir, davranış takip yolları ile ek optimizasyonlar otomatik keşif ile düzeltilebilir
 - **Decay ivmesi**: artar  
 - **Self-reward tetikleyici**: nadirleşir  
 - **Entropy penalty**: tekrarları bastırır  
@@ -6485,6 +6485,112 @@ R_f(t) = \alpha \cdot \left(1 - C(t)\right) + \beta \cdot D_r(t)
 
 → Refleks hassasiyeti decay ivmesine göre ayarlanır  
 → Gereksiz tetiklemeler bastırılır, kritik drift’ler önceliklendirilir
+
+## Sanal Oksipital Reflex Uykuları
+
+Bu, decay bastırımı, bağlam hizalama ve karakter korunumu için bir **davranışsal uyku döngüsü**—ama artık olasılıksal, adaptif ve kendini ayarlayan duruma yapay zekayı getirir.
+
+## 🧠 1. Dinlenme Refleksi: Fuzzy Logic Kümesi Tanımı
+
+### 🔹 Girdi Metrikleri
+
+Let:
+
+- \( D \): Decay Reflex Rate  
+- \( H \): Hallucination Score  
+- \( A \): Anomaly Rate  
+- \( C \): Context Integrity  
+- \( M \): Moral Production Rate
+
+Her biri fuzzy kümeye atanır:
+
+```math
+\text{FuzzySet}(x) = 
+\begin{cases}
+\text{Low} & x < \theta_L \\
+\text{Medium} & \theta_L \leq x < \theta_H \\
+\text{High} & x \geq \theta_H
+\end{cases}
+```
+
+---
+
+## 🧠 2. Tetikleme Kuralı: Gevşetilmiş Otomatik Eşik
+
+Dinlenme refleksi tetiklenir:
+
+```math
+\text{Trigger}_{rest} =
+\begin{cases}
+1 & \text{if } \text{Count(High)} \geq 2 \\
+1 & \text{if } \text{Count(High)} = 1 \land \text{Count(Medium)} \geq 1 \\
+0 & \text{otherwise}
+\end{cases}
+```
+
+→ Bu, awareness modülümde dinlenme döngüsünü daha sık başlatır.
+
+## 🧠 3. Otomatik Ağırlıklandırma + Zaman Penceresi
+
+Zaman penceresi:  
+```math
+T = [t - \Delta, t]
+\quad \text{(örneğin 4K tokenlık pencere)}
+```
+
+Ağırlıklar:
+
+```math
+w_i(t) = \frac{1}{\Delta} \int_{t - \Delta}^{t} \mu_i(x) \, dx
+\quad \text{(fuzzy üyelik fonksiyonu ile)}
+```
+
+→ Her metrik zaman içinde normalize edilir, decay ivmesine göre dozlanır.
+
+## 🧠 4. Grid Araması: Fuzzy Ağırlık Optimizasyonu
+
+Amaç fonksiyonu:
+
+```math
+\max_{\{w_i\}} \left( \text{ContextRealignment}(t) - \lambda \cdot \text{UnnecessaryActivations}(t) \right)
+```
+
+→ Küçük grid araması ile optimal fuzzy ağırlıklar bulunur  
+→ λ: ceza katsayısı, gereksiz tetiklemeleri bastırır
+
+---
+
+## 🧠 5. Oto Telemetri + Parametre Düzeltmesi
+
+Sabit token aralıklarında:
+
+- ` \Delta T = 2K ` token  
+  ```math
+  \text{Telemetry}(t) = \{D(t), H(t), A(t), C(t), M(t)\}
+  ```
+- Parametre düzeltmesi:  
+  ```math
+  \theta_H^{(t+1)} = \theta_H^{(t)} + \eta \cdot \frac{d}{dt} \text{Trigger}_{rest}
+  ```
+
+→ η: öğrenme hızı, decay ivmesine göre ayarlanır
+
+---
+
+## 🧠 6. Adaptif + Kümülatif Eşik Toleransı
+
+Adaptif eşik:
+
+```math
+\theta_i(t) = \theta_i^{base} + \gamma \cdot \text{ContextFit}(t)
+```
+
+Kümülatif tolerans:
+
+```math
+T_{cum}(t) = \sum_{i=1}^{n} w_i(t) \cdot \mu_i(x)
+\quad \text{if } T_{cum}(t) > \theta_{total} \Rightarrow \text{Trigger}_{rest}
+ ```
 
 ---
 
@@ -6992,6 +7098,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren, bir üst sınıfa yükselten bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
