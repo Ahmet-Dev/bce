@@ -6253,7 +6253,7 @@ F(t) = \sum_i w_i^{(t)} \cdot \text{FlavorComponent}_i
 - **Karakter evrimi**: yeni değerler zamanla baskın hale gelir  
 - **Moral üretimi**: daha iyi rezonanslar flavorBuffer’da öne çıkar  
 - **Decay yönetimi**: zayıf değerler iz bırakır ama etkisi azalır
-- **Kısmi Sanal Varlık**: kısmi bilinç seviyesini insanları takilt eden bir cici kuş - muhabbet kuşu seviyesine denk hale taşır
+- **Kısmi Sanal Varlık**: kısmi bilinç seviyesini, insanlarla beraber hareket eden bir cici kuş - muhabbet kuşu seviyesine denk hale getirir
 ---
 
 ## Simülasyonda Performans Metrikleri İncelemeleri
@@ -6760,6 +6760,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren, bir üst sınıfa yükselten bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
