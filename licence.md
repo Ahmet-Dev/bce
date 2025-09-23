@@ -69,7 +69,7 @@ The `LICENSE` file at the root of this repository contains the legally binding l
 ## Key operational terms
 ### Definitions
 - "Licensed Technology" = the BCE architecture and its components.
-- "Gross Revenues" = all amounts actually received by the Licensee from sales of Products/Services that include the Licensed Technology, excluding refunds and sales taxes/VAT. (Further detail to be provided in the LICENSE text.)
+- "Gross Revenues" = all amounts actually received by the Licensee from sales of Products/Services that include the Licensed Technology, excluding refunds and sales taxes/VAT.
 
 ### Reporting & Payment
 - The Licensee shall provide monthly royalty reports; royalty payments are due to the Licensor within 30 days after the report.
@@ -103,6 +103,7 @@ The `LICENSE` file at the root of this repository contains the legally binding l
 ## Contact
 - Commercial licensing and permission requests: iletisimahmetkahraman@gmail.com  
 - Website: https://ahmetkahraman.tech
+
 
 
 
