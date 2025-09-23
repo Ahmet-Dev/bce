@@ -1,4 +1,4 @@
-# Contributing to bce
+# BCE'yee Destek
 
 Teşekkürler — proje ile katkıda bulunmayı düşündüğün için memnunuz. Bu dosya, katkı sürecini, beklentileri ve kuralları açıklar. Projeye katkı sağlamadan önce lütfen aşağıdaki maddeleri okuyup kabul ettiğini varsayacağız.
 
@@ -155,6 +155,7 @@ Contributors are expected to act professionally, respectfully, and inclusively. 
 ## Contact
 - Commercial licensing and permission requests: iletisimahmetkahraman@gmail.com
 - Security reports (confidential): iletisimahmetkahraman@gmail.com — include "SECURITY" in the subject.
+
 
 
 
