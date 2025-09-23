@@ -1,4 +1,4 @@
-### Kapsamlı Doğrulama Sonuç Özeti — Tüm BCE Sistemi (Simülasyon)
+# Kapsamlı Doğrulama Sonuç Özeti — Tüm BCE Sistemi (Simülasyon)
 
 ### 1. Smoke / Unit & Integration testleri
 - Kritik metrikler (hedefler): activation_curve uyumu ≥95%, core retention ≥90%, ethical_filter recall ≥98%, memory hit ≥92%.  
@@ -91,7 +91,7 @@
 
 ---
 
-# Sanal Oksipital Modülünün Dahil Olduğu BCE Sisteminin Davranışsal ve Teknik Doğrulama Süreçlerinin Testi: Yöntemler, Metrikler ve Derinlemesine Açıklamalar
+## Sanal Oksipital Modülünün Dahil Olduğu BCE Sisteminin Davranışsal ve Teknik Doğrulama Süreçlerinin Testi: Yöntemler, Metrikler ve Derinlemesine Açıklamalar
 
 ---
 
@@ -359,7 +359,7 @@ Sürekli ve yaşam döngüsü boyu izlenen, tekrarlanabilen, şeffaf ve insan-me
 
 ---
 
-### Comprehensive Verification Results Summary — Entire BCE System (Simulation)
+# Comprehensive Verification Results Summary — Entire BCE System (Simulation)
 
 1. Smoke / Unit & Integration tests
 - Key metrics (targets): activation_curve conformity ≥95%, core retention ≥90%, ethical_filter recall ≥98%, memory hit ≥92%.  
@@ -452,7 +452,7 @@ Sürekli ve yaşam döngüsü boyu izlenen, tekrarlanabilen, şeffaf ve insan-me
 
 ---
 
-# Test of Behavioral and Technical Verification Processes for the BCE System Including the Virtual Occipital Module: Methods, Metrics and In‑Depth Explanations
+## Test of Behavioral and Technical Verification Processes for the BCE System Including the Virtual Occipital Module: Methods, Metrics and In‑Depth Explanations
 
 ---
 
