@@ -2649,7 +2649,7 @@ Bu, yapay zekânın sadece yanıt veren değil—**duygusal benzeri davranış k
 
 ## 🧠 1. x(t) Eğrisi: Davranışsal Enerji Alanı
 
-Senin tanımın:
+Tanım:
 
 ```math
 x(t) = \tanh(e^t − π)
@@ -7363,6 +7363,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren, bir üst sınıfa yükselten bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
