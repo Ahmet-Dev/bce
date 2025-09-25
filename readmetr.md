@@ -6864,6 +6864,106 @@ R_f = \sum_{j=1}^{K} u_{ij} \cdot w_j
 
 ---
 
+# Oksipitalist Modülü
+
+Bu modül, **suglist tabanlı kısa süreli bellek yönetimi**, **Bayesyen ağırlık optimizasyonu**, **DBSCAN ile davranışsal clusterlama**, ve **telemetrik refleks izleme** üzerine kuruludur. 
+
+## 🧠 1. Suglist Bellek Yönetimi: Bayesyen + DBSCAN
+
+### 📐 Bayesyen Ağırlık Modeli
+
+Her suglist için:
+
+```math
+P(s_i \mid D) = \frac{\alpha_i + \text{hit}_i}{\alpha_i + \beta_i + \text{hit}_i + \text{miss}_i}
+```
+
+- ` s_i `: Suglist örneği  
+- ` \alpha_i, \beta_i `: Bayesyen hiperparametreler  
+- ` \text{hit}_i `: Doğru eşleşme sayısı  
+- ` \text{miss}_i `: Yanlış eşleşme (false positive) sayısı
+
+> **Amaç:**  
+> - Rare suglist retention ↑  
+> - False-positive noise ↓  
+> - Sensitivity sweep: ` \alpha, \beta \in [0.1, 1.0] ` grid taraması
+
+---
+
+### 📐 DBSCAN Clusterlama
+
+```math
+\text{Cluster}(S) = \{ s_i \in S \mid \text{density}(s_i) > \epsilon, \text{neighbors}(s_i) \geq \text{min\_samples} \}
+```
+
+- ` \epsilon `: Maksimum mesafe eşiği  
+- ` \text{min\_samples} `: Minimum komşu sayısı  
+- Stability sweep:  
+  - ` \epsilon \in [0.2, 1.0] `  
+  - ` \text{min\_samples} \in [3, 10] `
+
+> **Amaç:**  
+> - En iyi cluster/noise trade-off’u  
+> - Periyodik re-cluster planı: ` T = 1 \text{ gün} `
+
+---
+
+## 🧭 2. Reflex Telemetry ve Uyarı Sistemi
+
+### 📐 Reflex Aktivasyon İzleme
+
+```math
+R_a(t) = \frac{\text{unnecessary\_activations}(t)}{\text{total\_activations}(t)}
+```
+
+- Eğer ` R_a(t) > 0.10 ` → parameter tuning alarmı tetiklenir
+
+## 🧠 3. Resource Planlama ve Fallback
+
+### 📐 İş Yükü Tahmini
+
+```math
+C(t) = \sum_{i=1}^{n} \text{CPU}_i(t) + \text{Memory}_i(t)
+```
+
+- Eğer ` C(t) > \text{threshold} ` → throttling + küçük-model fallback tetiklenir  
+- Drift anlarında resource rezervasyonu:  
+  ```math
+   R_{\text{reserve}} = \gamma \cdot \text{expected\_spike} 
+``` ``` 
+
+## 📊 4. İzleme Panelleri
+
+### 📐 Telemetri Dashboard Göstergeleri
+
+- **Corrected Suglist Count:**  
+  ```math
+  C_s(t) = \text{total\_suglist}(t) - \text{false\_noise}(t)
+  ```
+
+- **Drift Events Timeline:**  
+  ```math
+  D_e(t) = \{ t_i \mid \text{cluster\_drift}(t_i) > \delta \}
+  ```
+
+- **Post-Recluster Alignment Delta:**  
+  ```math
+  \Delta_a = \frac{\text{pre\_cluster\_map} \cap \text{post\_cluster\_map}}{\text{total\_suglist}}
+  ```
+
+- Korelasyon analizi:  
+  ```math
+  \rho = \text{corr}(R_a(t), C(t))
+  ```
+
+## 🧠 5. Uç Kümelerde Drift Kontrolü
+
+- 4096 tokenlık bağlam kontrolü yapılır  
+- Eğer context drift > threshold → yeniden clusterlama tetiklenir  
+- Bayesyen ağırlıklar yeniden optimize edilir
+
+---
+
 ## Simülasyonda Performans Metrikleri İncelemeleri
 
 **Sapkınlık Tespiti**
@@ -7363,6 +7463,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren, bir üst sınıfa yükselten bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
