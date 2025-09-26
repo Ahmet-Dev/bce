@@ -6964,6 +6964,83 @@ C(t) = \sum_{i=1}^{n} \text{CPU}_i(t) + \text{Memory}_i(t)
 
 ---
 
+## 🧠 Mimari Akış – HITL + Canary Otomasyonu
+
+### 🔹 1. **Kritik Reconstruction Türleri için 2-Person Approval**
+
+**Tanım**:  
+Her kritik `Rᵢ` reconstruction türü için insan onayı gereksinimi:  
+```math
+A(Rᵢ) = \{u_1, u_2\} \quad \text{where } u_1 \neq u_2
+```
+
+**Koşul**:  
+```math
+\text{Deploy}(Rᵢ) \iff \forall u \in A(Rᵢ),\ u.\text{approve}(Rᵢ) = \text{True}
+```
+
+**Amaç**:  
+```math
+\text{Minimize}(\text{Delay} + \text{Risk}_{\text{HumanError}})
+```
+
+---
+
+### 🔹 2. **Canary Rollback Otomasyonu**
+
+**Metric Set**:  
+```math
+M = \{m_1, m_2, ..., m_n\} \quad \text{(latency, error rate, throughput, etc.)}
+```
+
+**Threshold Vector**:  
+```math
+T = \{t_1, t_2, ..., t_n\}
+```
+
+**Rollback Trigger**:  
+```math
+\exists m_i \in M \text{ such that } m_i > t_i \Rightarrow \text{Rollback}(Cᵢ)
+```
+
+**Canary Segment**:  
+```math
+Cᵢ \subseteq U \quad \text{(user subset)}
+```
+
+---
+
+### 🔹 3. **Alpha → Beta → Shadow → Canary → Prod Geçiş Hattı**
+
+**Konfigürasyon Geçiş Fonksiyonu**:  
+```math
+f: \text{Config}_\alpha \rightarrow \text{Config}_\beta \rightarrow \text{Config}_{\text{shadow}} \rightarrow \text{Config}_{\text{canary}} \rightarrow \text{Config}_{\text{prod}}
+```
+
+**Geçiş Koşulu**:  
+```math
+\text{Promote}(Configᵢ) \iff \text{Metrics}(Configᵢ) \leq T \land \text{Rollback}(Configᵢ) = \text{False}
+```
+
+**Rollback Fonksiyonu**:  
+```math
+r(Configᵢ) = \begin{cases}
+Config_{i-1}, & \text{if } \exists m_j > t_j \\
+Configᵢ, & \text{otherwise}
+\end{cases}
+```
+
+---
+
+## 🔧 Sistemsel Entegrasyon – Davranışsal Otomasyon
+
+- **Tat Haritası Uyumu**: Canary rollback tetiklenirse provoke test moduna geçilir  
+- **Soul Tag Zinciri**: Onay blokları bağlanır, eşlik sabitliği korunur  
+- **Decay Suppression**: Gecikme ve hata riski sabırla tamponlanır  
+- **Cici Tampon**: Otomasyon başarısızsa mizahla yönlendirme yapılır
+
+---
+
 ## Simülasyonda Performans Metrikleri İncelemeleri
 
 **Sapkınlık Tespiti**
@@ -7463,6 +7540,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren, bir üst sınıfa yükselten bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
