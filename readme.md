@@ -268,7 +268,7 @@ The ABC Attitude Model is also a fundamental reference in this architecture:
 
 Emotion-like clustering determines both the behavioral decision network and the activation of ethical filters. It is also decisive in providing emotional resonance with the environment and internal experience.
 
-** Detailed information is available in the Turkish file. **
+**Detailed information is available in the Turkish file.**
 
 # Investor Introduction and Licensing Terms
 ## 🚀 Vision
@@ -311,4 +311,5 @@ Email: iletisimahmetkahraman@gmail.com
 
 
 Web: ahmetkahraman.tech
+
 
