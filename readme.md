@@ -1,3 +1,5 @@
+<img width="1024" height="1536" alt="BCE" src="https://github.com/user-attachments/assets/e623a0fa-e5ef-4e3a-bc5d-5ef11c478c1c" />
+
 # Behavioral Consciousness Engine (BCE)
 
 > **Vision:** To build a behavioral engine for artificial intelligence systems that is encoded with physical constants, carries temporal memory, and can generate random variations, in order to endow AI with behavioral consciousness.
@@ -304,5 +306,6 @@ Explained in the LICENCE.md file. This project is subject to the LICENSE file lo
 Contact:
 
 Email: iletisimahmetkahraman@gmail.com
+
 
 Web: ahmetkahraman.tech
