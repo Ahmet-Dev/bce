@@ -7043,7 +7043,7 @@ Configᵢ, & \text{otherwise}
 
 # YSA Math-Logic-Coding-Sensor Bulutları - Sanal Pons
 
-Bulanık mantık eklemek, modelin doğruluğunu artırabilir ve **kesin sınırlar yerine** daha esnek, belirsiz sınırlarla işlem yaparak verilerin karmaşıklığını daha iyi yakalamamıza olanak tanır. Şimdi, **bulanık mantığı** ve `DBSCAN` kümelemeyi, yukarıda verdiğiniz sürece dahil edelim ve tekrar ifade edelim.
+Math-Logic-Coding-Sensor için Bulanık mantık eklemek, modelin doğruluğunu artırabilir ve **kesin sınırlar yerine** daha esnek, belirsiz sınırlarla işlem yaparak verilerin karmaşıklığını daha iyi yakalamamıza olanak tanır. Şimdi, **bulanık mantığı** ve `DBSCAN` kümelemeyi, yukarıda verdiğiniz sürece dahil edelim ve tekrar ifade edelim.
 
 ## Adım Adım Açıklama (Bulanık Mantık Eklenmiş)
 
@@ -7620,6 +7620,7 @@ Lisans Koşulları:
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren, bir üst sınıfa yükselten bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
