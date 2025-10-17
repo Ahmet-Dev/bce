@@ -1,6 +1,6 @@
 # License summary / Lisans Özeti
 
-Bu depo kökünde yer alan `LICENSE` dosyası proje için geçerli yasal lisans metnini içerir. Aşağıda lisansın önemli uygulama kuralları bulunmaktadır. (Hukuki bağlayıcılık için resmi `LICENSE` metni ve/veya karşılıklı imzalı lisans sözleşmesi esas alınır.)
+Bu depo kökünde yer alan `LICENSE` dosyası proje için geçerli yasal lisans metnini içerir. Aşağıda lisansın önemli uygulama kuralları bulunmaktadır. (Hukuki bağlayıcılık için resmi `LICENSE` metni ve/veya karşılıklı imzalı lisans sözleşmesi esas alınır.) Patentli hizmettir. Kullanım ve geliştirme hakkı verilebilir. It is a patented service. Rights to use and develop may be granted.
 
 ## Kısa Özet / Quick summary
 - Lisans türü: Özel / Ticari lisans.
@@ -103,6 +103,7 @@ The `LICENSE` file at the root of this repository contains the legally binding l
 ## Contact
 - Commercial licensing and permission requests: iletisimahmetkahraman@gmail.com  
 - Website: https://ahmetkahraman.tech
+
 
 
 
