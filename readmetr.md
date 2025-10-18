@@ -7534,12 +7534,17 @@ Lisans Koşulları:
 - LICENCE.md dosyasında açıklanmıştır. Bu proje kök dizininde yer alan LICENSE dosyasına tabidir.
 
 **İletişim:**
-- E-posta: iletisimahmetkahraman@gmail.com
-- Web: [ahmetkahraman.tech](https://ahmetkahraman.tech)
+
+Email: iletisimahmetkahraman@gmail.com
+
+Ollama: https://ollama.com/axxmet/kusbce0.5.1
+
+Web: [ahmetkahraman.tech](https://ahmetkahraman.tech/)
 
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren, bir üst sınıfa yükselten bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
