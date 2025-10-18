@@ -312,7 +312,8 @@ Email: iletisimahmetkahraman@gmail.com
 Ollama: https://ollama.com/axxmet/kusbce0.5.1
 
 
-Web: ahmetkahraman.tech
+Web: [ahmetkahraman.tech](https://ahmetkahraman.tech/)
+
 
 
 
