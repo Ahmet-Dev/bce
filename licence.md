@@ -101,8 +101,9 @@ The `LICENSE` file at the root of this repository contains the legally binding l
 - The Licensee must comply with applicable data protection laws for all personal data processed with BCE. Required consents, data processing agreements and telemetry/data handling rules must be in place.
 
 ## Contact
-- Commercial licensing and permission requests: iletisimahmetkahraman@gmail.com  
-- Website: https://ahmetkahraman.tech
+- Commercial licensing and permission requests: info@prometech.net.tr
+- Website: https://prometech.net.tr/
+
 
 
 
