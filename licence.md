@@ -47,8 +47,8 @@ Bu depo kökünde yer alan `LICENSE` dosyası proje için geçerli yasal lisans 
 - Licensee, BCE ile işlenen tüm kişisel veriler için ilgili veri koruma mevzuatına uyum sağlamakla yükümlüdür. Telemetry, kullanıcı verileri ve audit kayıtları için gerekli onaylar ve veri işleme sözleşmeleri yapılmalıdır.
 
 ## İletişim / Contact
-- Ticari lisans ve izin talepleri: iletisimahmetkahraman@gmail.com  
-- Web: https://ahmetkahraman.tech
+- Ticari lisans ve izin talepleri: info@prometech.net.tr
+- Web: https://prometech.net.tr/
 
 ---
 
@@ -103,6 +103,7 @@ The `LICENSE` file at the root of this repository contains the legally binding l
 ## Contact
 - Commercial licensing and permission requests: info@prometech.net.tr
 - Website: https://prometech.net.tr/
+
 
 
 
