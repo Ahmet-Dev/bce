@@ -8,7 +8,7 @@ Bu depo kökünde yer alan `LICENSE` dosyası proje için geçerli yasal lisans 
 - Ticari kullanım / ticarileşme: Yazılı izin gereklidir. BCE tabanlı bir ürünün/hizmetin ticarileştirilmesi (satiş, abonelik, OEM, white‑label, SaaS vb.) durumunda lisanslama şartları ve royalty uygulanacaktır.
 - Royalty: Brüt satış geliri (gross sales revenue) üzerinden %0,5 (zero point five percent) uygulanır; tüm ürün entegrasyonları için geçerlidir.
 - Ödeme periyodu: Aylık. (Detaylar: "Reporting & Payment" maddesinde.)
-- Attribution (Atıf): Ürün/dokümantasyon/website üzerinde Lisans verenin belirtilmesi zorunludur (örnek: "Built with BCE — © Ahmet Kahraman").
+- Attribution (Atıf): Ürün/dokümantasyon/website üzerinde Lisans verenin belirtilmesi zorunludur (örnek: "Designed with BCE — ©").
 - Redistribution / Sublicensing: Alt lisanslama veya yeniden dağıtım için önceden yazılı izin gereklidir.
 - Uyumluluk: KVKK / GDPR / ilgili veri koruma mevzuatına uyum zorunludur.
 
@@ -28,7 +28,7 @@ Bu depo kökünde yer alan `LICENSE` dosyası proje için geçerli yasal lisans 
 - Ödemelerle ilgili vergiler ve harçlar Licensee sorumluluğundadır.
 
 ### Attribution / Branding
-- Ürün veya hizmetin "About", "Credits" veya doküman bölümünde açık atıf gösterilmelidir: ör. "Contains Behavioral Consciousness Engine (BCE) veya © Ahmet Kahraman".
+- Ürün veya hizmetin "About", "Credits" veya doküman bölümünde açık atıf gösterilmelidir: ör. "Designed with BCE — ©".
 
 ### Sublicensing & Redistribution
 - SaaS, OEM, white‑label veya alt lisanslama gibi senaryolar için Licensee önceden yazılı izin almalıdır; bu durumlar ayrı ek sözleşme veya onay gerektirebilir.
@@ -62,7 +62,7 @@ The `LICENSE` file at the root of this repository contains the legally binding l
 - Commercial use / commercialization: Written permission is required. If a BCE‑based product/service is commercialized (sales, subscriptions, OEM, white‑label, SaaS, etc.), licensing terms and royalties apply.
 - Royalty: 0.5% (zero point five percent) of gross sales revenue; applies to all product integrations.
 - Payment period: Monthly. (Details in "Reporting & Payment".)
-- Attribution: The licensor must be credited in product/documentation/website (example: "Built with BCE or © Ahmet Kahraman").
+- Attribution: The licensor must be credited in product/documentation/website (example: "Designed with BCE — ©").
 - Redistribution / Sublicensing: Prior written permission is required for sublicensing or redistribution.
 - Compliance: Compliance with data protection laws (KVKK / GDPR / relevant legislation) is required.
 
@@ -82,7 +82,7 @@ The `LICENSE` file at the root of this repository contains the legally binding l
 - Taxes and charges related to payments are the responsibility of the Licensee.
 
 ### Attribution / Branding
-- Products or services must include clear attribution in About, Credits or documentation sections, e.g.: "Contains Behavioral Consciousness Engine (BCE) — © Ahmet Kahraman".
+- Products or services must include clear attribution in About, Credits or documentation sections, e.g.: "Designed with BCE — ©".
 
 ### Sublicensing & Redistribution
 - For SaaS, OEM, white‑label or sublicensing scenarios, the Licensee must obtain prior written permission; such deployments may require separate agreements or approvals.
@@ -103,6 +103,7 @@ The `LICENSE` file at the root of this repository contains the legally binding l
 ## Contact
 - Commercial licensing and permission requests: info@prometech.net.tr
 - Website: https://prometech.net.tr/
+
 
 
 
