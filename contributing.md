@@ -75,8 +75,8 @@ Bu projeye katkıda bulunurken profesyonel, saygılı ve kapsayıcı davranış 
 - Kullanıcı/satış verileri üzerinden royalty hesaplanması, raporlama ve denetim talepleri sözleşmede belirtilecektir. Katılımcıların proje ile ilgili ticari verileri paylaşma yükümlülüğü yalnızca taraflarca kararlaştırıldığında geçerlidir.
 
 ## İletişim
-- Ticari lisans ve izin talepleri: iletisimahmetkahraman@gmail.com
-- Güvenlik bildirimleri (kamuya açık değil): iletisimahmetkahraman@gmail.com (başlığa "SECURITY" ekleyin)
+- Ticari lisans ve izin talepleri: info@prometech.net.tr
+- Güvenlik bildirimleri (kamuya açık değil): info@prometech.net.tr (başlığa "SECURITY" ekleyin)
 
 # Contributing to BCE
 
@@ -153,8 +153,9 @@ Contributors are expected to act professionally, respectfully, and inclusively. 
 - Royalty calculation, reporting, and audit procedures will be defined in license agreements. Contributors are not required to share commercial records unless explicitly agreed between parties.
 
 ## Contact
-- Commercial licensing and permission requests: iletisimahmetkahraman@gmail.com
-- Security reports (confidential): iletisimahmetkahraman@gmail.com — include "SECURITY" in the subject.
+- Commercial licensing and permission requests: info@prometech.net.tr
+- Security reports (confidential): info@prometech.net.tr — include "SECURITY" in the subject.
+
 
 
 
