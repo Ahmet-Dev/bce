@@ -309,9 +309,12 @@ Contact:
 
 Email: iletisimahmetkahraman@gmail.com
 
+Institutional Email: info@prometech.net.tr
+
 Ollama: https://ollama.com/axxmet/kusbce0.5.1
 
 Web: [ahmetkahraman.tech](https://ahmetkahraman.tech/)
+
 
 
 
