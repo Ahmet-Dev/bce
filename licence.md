@@ -11,6 +11,7 @@ Bu depo kökünde yer alan `LICENSE` dosyası proje için geçerli yasal lisans 
 - Attribution (Atıf): Ürün/dokümantasyon/website üzerinde Lisans verenin belirtilmesi zorunludur (örnek: "Designed with BCE — ©").
 - Redistribution / Sublicensing: Alt lisanslama veya yeniden dağıtım için önceden yazılı izin gereklidir.
 - Uyumluluk: KVKK / GDPR / ilgili veri koruma mevzuatına uyum zorunludur.
+- Farklı kiralamalar ve ücretlendirmeler firma tarafından saklıdır.
 
 ## Önemli Uygulama Maddeleri / Key operational terms
 ### Tanımlar
@@ -65,6 +66,7 @@ The `LICENSE` file at the root of this repository contains the legally binding l
 - Attribution: The licensor must be credited in product/documentation/website (example: "Designed with BCE — ©").
 - Redistribution / Sublicensing: Prior written permission is required for sublicensing or redistribution.
 - Compliance: Compliance with data protection laws (KVKK / GDPR / relevant legislation) is required.
+- Different rentals and pricing are reserved by the company.
 
 ## Key operational terms
 ### Definitions
@@ -103,6 +105,7 @@ The `LICENSE` file at the root of this repository contains the legally binding l
 ## Contact
 - Commercial licensing and permission requests: info@prometech.net.tr
 - Website: https://prometech.net.tr/
+
 
 
 
