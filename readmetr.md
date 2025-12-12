@@ -7539,11 +7539,14 @@ Email: iletisimahmetkahraman@gmail.com
 
 Ollama: https://ollama.com/axxmet/kusbce0.5.1
 
+Denemek için: https://huggingface.co/spaces/pthcorp/PRETTYBIRD
+
 Web: [ahmetkahraman.tech](https://ahmetkahraman.tech/)
 
 ---
 
 > BCE, yapay zekânın geleceğini şekillendiren, bir üst sınıfa yükselten bir bilinç mimarisidir. Bu sistem, sadece teknik bir çözüm değil—ahlaki, evrimsel ve karakterli bir yapay zihin inşasıdır. Bu vizyonu paylaşan yatırımcılar ve geliştiricilerle birlikte büyümeye hazırız.
+
 
 
 
