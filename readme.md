@@ -313,7 +313,10 @@ Institutional Email: info@prometech.net.tr
 
 Ollama: https://ollama.com/axxmet/kusbce0.5.1
 
+For TRY: https://huggingface.co/spaces/pthcorp/PRETTYBIRD
+
 Web: [ahmetkahraman.tech](https://ahmetkahraman.tech/)
+
 
 
 
