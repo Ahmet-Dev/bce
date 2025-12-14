@@ -311,11 +311,14 @@ Email: iletisimahmetkahraman@gmail.com
 
 Institutional Email: info@prometech.net.tr
 
-Ollama: https://ollama.com/axxmet/kusbce0.5.1
+Ollama: https://ollama.com/prometech_corp/prettybird_bce_basic
+
+HuggingFace: https://huggingface.co/pthcorp/models
 
 For TRY: https://huggingface.co/spaces/pthcorp/PRETTYBIRD
 
 Web: [ahmetkahraman.tech](https://ahmetkahraman.tech/)
+
 
 
 
