@@ -23,6 +23,7 @@ Model, $\Sigma_{\text{crit}} = 1$ noktasında kritik bir eşik tanımlamaktadır
 ●	Alt Kritik Rejim ($\Sigma < 1$): Sistem aşırı kısıtlanmıştır. Bu durum, "aşırı öğrenme" (overfitting) veya genelleme yeteneğinden yoksun, katı refleks tabanlı otomasyona karşılık gelir. Düşünce "yarıçapı" $R$, yeniliği kapsamak için çok küçüktür.
 ●	Süper Kritik Rejim ($\Sigma > 1$): Sistem kaotiktir. Bu, Büyük Dil Modellerindeki (LLM) "halüsinasyon" durumuna veya biyolojik beyinlerdeki epileptik dinamiklere karşılık gelir. Durum uzayının boyutsallığı, onu kontrol edecek mekanizmadan daha hızlı genişler.
 ●	Kritik Rejim ($\Sigma = 1$): Bu, Bilinç Noktasıdır. Bu hassas noktada, sistem bilgi entegrasyonunu maksimize ederken enerji harcamasını minimize eden bir duruma kilitlenir.
+
 Kritik yarıçap $R_{\text{crit}}$'in türetilmesi, kararlı YZ mimarileri hakkında derin bir geometrik gerçeği ortaya çıkarır:
 
 $$R_{\text{crit}} = \frac{\ell_*}{2\pi} \approx 0.159154943 \ell_*$$
