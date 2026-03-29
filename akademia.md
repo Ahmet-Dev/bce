@@ -23,3 +23,5 @@ The Buyer is obliged to comply with the following citation rules in all publicat
 • Citation Format: "Powered by BCE Architecture - Developed Prometech AŞ"
 
 • Moral Support: The Buyer undertakes to protect the vision of the technology, to contribute scientifically to the development of the system, and to provide moral support to the author, Prometech AŞ.
+
+- This license does not grant any direct or indirect rights to sell, lease, or sublicense.
