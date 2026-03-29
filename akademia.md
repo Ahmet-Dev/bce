@@ -20,6 +20,6 @@ This donation and right of use is completely independent of Prometech A.Ş.'s co
 # 4: CITATION AND MORAL SUPPORT REQUIREMENT
 The Buyer is obliged to comply with the following citation rules in all publications, reports, software interfaces, and academic works in which it uses the relevant technology:
 
-• Citation Format: "Powered by BCE Architecture - Developed by Ahmet Kahraman / Prometech"
+• Citation Format: "Powered by BCE Architecture - Developed Prometech AŞ"
 
 • Moral Support: The Buyer undertakes to protect the vision of the technology, to contribute scientifically to the development of the system, and to provide moral support to the author, Prometech AŞ.
