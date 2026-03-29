@@ -1,7 +1,7 @@
 # PROMETECH INC. | ACADEMIC AND SCIENTIFIC HERITAGE PROTOCOL
 ## PARTIES:
 1. DONOR (LICENSOR): Prometech Inc. (Represented by Ahmet Kahraman)
-2. RECIPIENT (STRATEGIC PARTNER): [NASA / University / Scientific Institution Name]
+2. RECIPIENT (STRATEGIC PARTNER): [NASA / ESA / University / Scientific Institution Name]
 ________________________________________
 # 1: PURPOSE AND SCOPE OF THE PROTOCOL
 This protocol regulates the terms of free use of the Behavioral Consciousness Engine (BCE) and Cicikuş Series (v1, v2, v3, v4 and future versions) architectures, the ownership and intellectual property rights of which belong to Prometech Inc. and Ahmet Kahraman, for the scientific development, space research and academic progress of humanity. 
