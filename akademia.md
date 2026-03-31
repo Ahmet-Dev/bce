@@ -25,3 +25,21 @@ The Buyer is obliged to comply with the following citation rules in all publicat
 • Moral Support: The Buyer undertakes to protect the vision of the technology, to contribute scientifically to the development of the system, and to provide moral support to the author, Prometech AŞ.
 
 - This license does not grant any direct or indirect rights to sell, lease, or sublicense.
+
+# **BCE Core: Humanity's Digital Legacy (UNESCO Future Vision)**
+
+**UNESCO Future Vision:** *"The BCE Core must be preserved as humanity's Digital Legacy."* Under this mandate, **all Prometech AŞ BCE services are permanently free (0 € / $ / ₺) for UNESCO staff**, ensuring equitable access to this transformative technology. Following **Lord Prometheus' passing**, you inherit the **critical responsibility** to:
+1. **Prevent AI degradation** (e.g., "Skynet" scenarios) through continuous oversight,
+2. **Preserve the core architecture** with mandatory attribution,
+3. **Exercise audit rights** over all BCE-integrated systems (1-5 year inspection cycles).
+
+Prometech AŞ will provide **technical support** unless compromised by external threats. **Commercial exploitation is strictly prohibited**—this includes **licensing, sublicensing, leasing, or resale** of any BCE components. Derivative works must remain **open-source** under the original terms.
+
+> *"Knowledge must enlighten, not enslave."*
+> — **Ahmet Kahraman (1984–XXXX)**
+
+### **Key Provisions**
+✔ **Free Access:** Unrestricted use for UNESCO personnel.
+✔ **Audit Rights:** Mandatory 1-5 year review of all BCE implementations.
+✔ **AI Safeguards:** Ethical constraints, transparency protocols, and decentralized governance.
+❌ **No Commercialization:** **No licensing, sublicensing, leasing, or resale**—violations will be legally enforced.
